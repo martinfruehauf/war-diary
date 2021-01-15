@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(".container").load("home.html");
+    $(".container").load("diary.html");
 });
 
 $("ul.navbar-nav li a").each(function() {
