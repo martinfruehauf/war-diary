@@ -1,0 +1,57 @@
+{
+  "entry": [
+    {
+      "date": "02.11.44",
+      "text": ["Rückkehr aus dem Urlaub nach Stablack-Nord"],
+      "footer": [
+        {
+          "note": "Der Truppenübungsplatz Stablack war ein Truppenübungsplatz der deutschen Wehrmacht im Kreis Preußisch Eylau in Ostpreußen. Der nördliche Teil wird heute von der russischen Armee genutzt. (Quelle: Wikipedia) ",
+          "coordinates": "54° 24′ 34.34″ N, 20° 28′ 51.21″ E "
+        }
+      ]
+    },
+    {
+      "date": "05.11.44",
+      "text": ["Verlegung des Regts.-Stabes nach Pr.Eylau."],
+      "footer": [
+        {
+          "note": "Preußisch Eylau – heute: Багратио́новс (Bagrationowsk), Russland",
+          "coordinates": "54° 23′ 25.84″ N, 20° 38′ 27″ E\""
+        }]
+    },
+    {
+      "date": "06.01.45",
+      "text": ["Abstellung zum Divisionsstab. Fahrt nach Insterburg",
+        "Daselbst Besuch eines Soldatenkinos. Weiterfahrt in unmittelbarer Frontnähe nach Schillen",
+        ". Nachtfahrt mittels Lkw. zum Fronteinsatz. Mein Ib-Stab", " liegt in Lindnershorst",
+        " in der Oberförsterei. Ich treffe sehr schwierige Arbeitsverhältnisse an. Kein Schlaf, da fast nur Nachtarbeit, keine Kameradschaft unter den Leuten. Der O 2"],
+      "footer": [
+        {
+          "note": "heute Tschernjachowsk (Черняховск), Russland",
+          "coordinates": "54° 38′ 0″ N, 21° 49′ 0″ E"
+        },
+        {
+          "note": "Heute Schilino (Жилино), Russland",
+          "coordinates": "54°54′24″N, 21°55′30″E"
+        },
+        {
+          "note": "Römisch eins (I) und b: Quartiermeister (Logistik, Verwundeten- und Versorgungsdienste)",
+          "coordinates": null
+        },
+        {
+          "note": "Heute Uszballen/Uschballen ist ein Ortsteil im mittleren Bereich der heutigen Siedlung Poljanskoje (Полянское), Russland",
+          "coordinates": "54°57'42.0\"N 22°23'46.0\"E"
+        },
+        {
+          "note": "O2 Zweiter Ordonnanzoffizier (bei Ib)",
+          "coordinates": null
+        }
+      ]
+
+    }
+
+  ]
+
+
+
+}
