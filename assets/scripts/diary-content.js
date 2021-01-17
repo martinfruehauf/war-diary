@@ -19,16 +19,40 @@ function getEntry(id) {
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            var entry = JSON.parse(this.responseText).entry;
-            document.getElementById("date").innerHTML = entry[id].date;
-            document.getElementById("text-content").innerHTML = entry[id].text;
-            document.getElementById("footer").innerHTML = entry[id].footer;
+            var entry = JSON.parse(this.responseText);
+
+            //set date
+            let date_text;
+            if(entry.date.length == 1) {
+                date_text = entry.date[0];
+            }else{
+                date_text = entry.date[0] + " - " + entry.date[1];
             }
+            document.getElementById("date").innerHTML = date_text;
+
+            //set text
+            let text = "";
+            for(let i = 0; i < entry.text.length; i++) {
+                text += entry.text[i];
+                if(entry.footer[i]) {
+                    text += "<sup>" + entry.footer[i].id + "</sup>";
+                }
+            }
+            document.getElementById("text-content").innerHTML = text;
+
+            //set footer
+            let footer = "";
+            for(let i = 0; i < entry.footer.length; i++) {
+                footer += "<sup>" + entry.footer[i].id + "</sup>" + entry.footer[i].note +"<br>";
+            }
+
+            document.getElementById("footer").innerHTML = footer;
+
+        }
     };
-    xmlhttp.open("GET", "assets/full_diary.json", true);
+    let url = "assets/content/json/entry" + id + ".json";
+    xmlhttp.open("GET", url, true);
     xmlhttp.send();
     pageId = id;
 }
-
-getEntry(0);
-
+getEntry(1);
