@@ -5,12 +5,12 @@ const MAXDAYS = 343; //besser nicht hard coden
 let pageId;
 document.getElementById("button-next").addEventListener('click', function() {
     if(pageId<MAXDAYS) {
-        getEntry(pageId+1)
+        getEntry(pageId)
     }
 } );
 document.getElementById("button-previous").addEventListener('click', function() {
     if(pageId>0) {
-        getEntry(pageId-1)
+        getEntry(pageId)
     }
 } );
 
