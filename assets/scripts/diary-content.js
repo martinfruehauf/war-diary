@@ -1,16 +1,34 @@
+var slider = document.getElementById("sliderId");
+var hiddenDay = document.getElementById("day");
 
-console.log("diary-content.js");
-
-const MAXDAYS = 343; //besser nicht hard coden
+const MAXDAYS = 36; //besser nicht hard coden eigentlich = 343
+var days = [1, 4, 14, 28, 33, 36]; //Besser nicht hardcoden
 let pageId;
+
+//Buttons
 document.getElementById("button-next").addEventListener('click', function() {
-    if(pageId<MAXDAYS) {
-        getEntry(pageId)
+    if(parseInt(hiddenDay.textContent) < MAXDAYS) {
+        getEntry(pageId+1)
+    }
+    for(let i = 0; i < days.length; i++) {
+        if(days[i] == slider.value && i < (days.length - 1)) {
+            slider.value = days[i+1];
+            hiddenDay.innerHTML = days[i+1].toString();
+            break;
+        }
     }
 } );
+
 document.getElementById("button-previous").addEventListener('click', function() {
-    if(pageId>0) {
-        getEntry(pageId)
+    if(parseInt(hiddenDay.textContent) > 1) {
+        getEntry(pageId-1)
+    }
+    for(let i = 0; i < days.length; i++) {
+        if(days[i] == slider.value && i > 0) {
+            slider.value = days[i-1];
+            hiddenDay.innerHTML = days[i-1].toString();
+            break;
+        }
     }
 } );
 
@@ -47,12 +65,36 @@ function getEntry(id) {
             }
 
             document.getElementById("footer").innerHTML = footer;
-
         }
     };
     let url = "assets/content/json/entry" + id + ".json";
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
+
     pageId = id;
 }
+
+
+
+// Slider : works either with input or onchange. oninput offers better ui experience, but results in loads of http requests
+slider.oninput = function() {
+    let tempDays = 0;
+    let tempArrId = 0;
+    for(let i = 0; i < days.length; i++) {
+        if(i > 0 && (this.value > days[i - 1]) && (this.value <= days[i])) {
+            if((this.value - days[i-1]) < (days[i]) - this.value) {
+                tempDays = days[i-1];
+                tempArrId = i - 1;
+            }
+            else{
+                tempDays = days[i];
+                tempArrId = i;
+            }
+        }
+    }
+    this.value = tempDays;
+    hiddenDay.innerHTML = this.value;
+    getEntry(tempArrId+1);
+}
+
 getEntry(1);

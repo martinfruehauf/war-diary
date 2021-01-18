@@ -16,19 +16,16 @@
 <p>Tagebuch...</p>
 
 <div class="slidecontainer">
-    <input type="range" min="1" max="343" value="50" class="slider" id="myRange">
+    <input type="range" min="1" max="36" value="1" class="slider" id="sliderId"> <!--max=343-->
 </div>
 
-<p>Value: <span id="demo"></span></p>
-
-<script src="assets/scripts/diary-slider.js"></script>
 
 <button type="button" class="btn btn-outline-secondary float-left" id="button-previous"><</button><button type="button" class="btn btn-outline-secondary float-right" id="button-next">></button>
 
 <div class="card" style="width: 100%;">
 
     <div class="card-body">
-        <h5 class="card-title" id="date">Datum</h5>
+        <h5 class="card-title">Datum: <span id="date"></span></h5>
         <hr>
         <p class="card-text" id="text-content">Bla<sup>1</sup></p>
     </div>
@@ -39,8 +36,7 @@
     </div>
 
     <div class="card-body">
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+        <p id="day">1</p>
     </div>
 </div>
 
