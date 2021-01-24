@@ -1,36 +1,37 @@
 var slider = document.getElementById("sliderId");
-var hiddenDay = document.getElementById("day");
+var day = document.getElementById("day");
 
-const MAXDAYS = 36; //besser nicht hard coden eigentlich = 343
+var MAXDAYS = 36; //besser nicht hard coden eigentlich = 343
 var days = [1, 4, 14, 28, 33, 36]; //Besser nicht hardcoden
-let pageId;
+var pageId;
 
 //Buttons
 document.getElementById("button-next").addEventListener('click', function() {
-    if(parseInt(hiddenDay.textContent) < MAXDAYS) {
+    if(parseInt(day.textContent) < MAXDAYS) { //const MAXDAYS führte zu Uncaught SyntaxError: Identifier 'MAXDAYS' has already been declared
         getEntry(pageId+1)
     }
     for(let i = 0; i < days.length; i++) {
         if(days[i] == slider.value && i < (days.length - 1)) {
             slider.value = days[i+1];
-            hiddenDay.innerHTML = days[i+1].toString();
+            day.innerHTML = days[i+1].toString();
             break;
         }
     }
 } );
 
 document.getElementById("button-previous").addEventListener('click', function() {
-    if(parseInt(hiddenDay.textContent) > 1) {
+    if(parseInt(day.textContent) > 1) {
         getEntry(pageId-1)
     }
     for(let i = 0; i < days.length; i++) {
         if(days[i] == slider.value && i > 0) {
             slider.value = days[i-1];
-            hiddenDay.innerHTML = days[i-1].toString();
+            day.innerHTML = days[i-1].toString();
             break;
         }
     }
 } );
+
 
 function getEntry(id) {
     var xmlhttp = new XMLHttpRequest();
@@ -65,6 +66,15 @@ function getEntry(id) {
             }
 
             document.getElementById("footer").innerHTML = footer;
+
+            //set coordinates
+            if(map && entry.footer.length) {
+                clearMarkers();
+                for (let i = 0; i < entry.footer.length; i++) {
+                    setMarker(entry.footer[i].coordinates.lat, entry.footer[i].coordinates.lng, entry.footer[i].id);
+                }
+            }
+
         }
     };
     let url = "assets/content/json/entry" + id + ".json";
@@ -73,8 +83,6 @@ function getEntry(id) {
 
     pageId = id;
 }
-
-
 
 // Slider : works either with input or onchange. oninput offers better ui experience, but results in loads of http requests
 slider.oninput = function() {
@@ -93,7 +101,7 @@ slider.oninput = function() {
         }
     }
     this.value = tempDays;
-    hiddenDay.innerHTML = this.value;
+    day.innerHTML = this.value;
     getEntry(tempArrId+1);
 }
 
