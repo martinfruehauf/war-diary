@@ -10,7 +10,10 @@
         {
             "id": 3,
             "note": "Heute Braniewo, Polen",
-            "coordinates": "54° 23′ 0.75″ N, 19° 49′ 0.17″ E"
+            "coordinates": {
+                "lat": 54.383333,
+                "lng": 19.816667
+            }
         }
     ]
 }

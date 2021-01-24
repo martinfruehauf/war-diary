@@ -12,12 +12,18 @@
     {
       "id": 5,
       "note": "fake news miauuu",
-      "coordinates": "54° 28′ 0″ N, 19° 56′ 0″ E"
+      "coordinates": {
+        "lat": 54.5,
+        "lng": 19.8
+      }
     },
     {
       "id": 6,
       "note": "menschen???",
-      "coordinates": "54° 28′ 0″ N, 19° 56′ 0″ E"
+      "coordinates": {
+        "lat": 54.7,
+        "lng": 19.93356
+      }
     }
   ]
 }
