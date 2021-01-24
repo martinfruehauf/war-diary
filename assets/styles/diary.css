@@ -1,0 +1,23 @@
+#block_container
+{
+    text-align:center;
+}
+#bloc1
+{
+    display:inline;
+    float: left;
+}
+
+#bloc2 {
+    display:inline;
+    color: red;
+}
+
+#bloc3
+{
+    display:inline;
+    float: right;
+}
+#map {
+    height: 500px;
+}
