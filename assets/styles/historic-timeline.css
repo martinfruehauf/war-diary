@@ -1,0 +1,99 @@
+/* historic timeline*/
+
+#timeline1 {
+    position: relative;
+    margin-top: 10px;
+    height: 110px;
+}
+#timeline2 {
+    position: relative;
+    margin-bottom: 10px;
+    height: 110px;
+}
+
+.top {
+    position: relative;
+    height: 5%;
+    background: white;
+}
+.bottom1 {
+    position: relative;
+    border-left: 1px solid grey;
+    height: 76px;
+    margin-left: 50%;
+}
+.bottom2 {
+    position: relative;
+    border-left: 1px solid grey;
+    height: 25px;
+    margin-left: 50%;
+}
+#hst-date1, #hst-date3, #hst-date5, #hst-date7, #hst-date9, #hst-date10, #hst-date11, #hst-date14, #hst-date15, #hst-date16 {
+    position: absolute;
+    display: inline-block;
+    transform: translateX(-50%);
+}
+#hst-date2, #hst-date4, #hst-date6, #hst-date8, #hst-date12, #hst-date13, #hst-date17 {
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%, 80%);
+    z-index: 10;
+}
+
+#hst-date1 {
+    left: 12.83%;
+}
+#hst-date2 {
+    left: 20.7%;
+}
+#hst-date3 {
+    left: 22.16%;
+}
+#hst-date4 {
+    left: 25.07%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+#hst-date5 {
+    left: 25.95%;
+}
+#hst-date6 {
+    left: 30.03%;
+}
+#hst-date7 {
+    left: 32.65%;
+}
+#hst-date8 {
+    left: 36.44%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+#hst-date9 {
+    left: 39.94%;
+}
+#hst-date10 {
+    left: 46.94%;
+}
+#hst-date11 {
+    left: 48.10%;
+}
+#hst-date12 {
+    left: 49.27%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+#hst-date13 {
+    left: 49.56%;
+}
+#hst-date14 {
+    left: 52.19%;
+}
+#hst-date15 {
+    left: 54.81%;
+}
+#hst-date16 {
+    left: 80.76%;
+}
+#hst-date17 {
+    left: 88.63%;
+}
