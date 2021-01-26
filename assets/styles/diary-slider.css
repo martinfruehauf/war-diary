@@ -1,5 +1,13 @@
 .slidecontainer {
     width: 100%; /* Width of the outside container */
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
 }
 
 /* The slider itself */
@@ -13,6 +21,7 @@
     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
+    border-radius: 5px;
 }
 
 /* Mouse-over effects */
@@ -25,9 +34,10 @@
     -webkit-appearance: none; /* Override default look */
     appearance: none;
     width: 5px; /* Set a specific slider handle width */
-    height: 40px; /* Slider handle height */
-    background: grey; /* Green background */
+    height: 50px; /* Slider handle height */
+    background: lightgrey; /* Green background */
     cursor: pointer; /* Cursor on hover */
+    border-radius: 2px;
 }
 
 .slider::-moz-range-thumb {
