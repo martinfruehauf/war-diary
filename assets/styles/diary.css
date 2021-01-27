@@ -2,18 +2,36 @@
 {
     text-align:center;
 }
-#bloc1
+#date-bloc
 {
     display:inline;
     float: left;
 }
 
-#bloc2 {
+#status-bloc {
     display:inline;
+}
+#status {
     color: red;
 }
 
-#bloc3
+@media screen and (max-width: 1200px)  {
+    #btn-timeline {
+        left: 25%;
+        display: none !important;
+    }
+}
+.buttons {
+    text-align: center;
+}
+#button-previous {
+    float: left;
+}
+#button-next {
+    float: right;
+}
+
+#day-bloc
 {
     display:inline;
     float: right;

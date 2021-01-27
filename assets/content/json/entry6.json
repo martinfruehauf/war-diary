@@ -20,9 +20,14 @@
     {
       "id": 6,
       "note": "menschen???",
+      "coordinates": null
+    },
+    {
+      "id": 7,
+      "note": "schnabelbabel",
       "coordinates": {
-        "lat": 54.7,
-        "lng": 19.93356
+        "lat": 54.6,
+        "lng": 19.5
       }
     }
   ]

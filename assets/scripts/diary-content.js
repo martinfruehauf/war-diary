@@ -71,7 +71,9 @@ function getEntry(id) {
             if(map && entry.footer.length) {
                 clearMarkers();
                 for (let i = 0; i < entry.footer.length; i++) {
-                    setMarker(entry.footer[i].coordinates.lat, entry.footer[i].coordinates.lng, entry.footer[i].id);
+                    if(entry.footer[i].coordinates) {
+                        setMarker(entry.footer[i].coordinates.lat, entry.footer[i].coordinates.lng, entry.footer[i].id);
+                    }
                 }
             }
 
