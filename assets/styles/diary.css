@@ -9,7 +9,9 @@
 }
 
 #status-bloc {
+    position: absolute;
     display:inline;
+    transform: translateX(-100%);
 }
 #status {
     color: red;
