@@ -1,16 +1,16 @@
 #block_container
 {
-    text-align:center;
+    text-align: center;
 }
 #date-bloc
 {
-    display:inline;
+    display: inline;
     float: left;
 }
 
 #status-bloc {
     position: absolute;
-    display:inline;
+    display: inline;
     transform: translateX(-100%);
 }
 #status {
@@ -37,7 +37,7 @@
 
 #day-bloc
 {
-    display:inline;
+    display: inline;
     float: right;
 }
 #map {
