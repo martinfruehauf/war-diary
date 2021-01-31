@@ -78,7 +78,7 @@ $(function(){
             mapActive = false;
         }else {
             $('#map').removeClass('hide');
-            sourcesActive = true;
+            mapActive = true;
         }
     });
 });
