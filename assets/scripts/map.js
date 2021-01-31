@@ -6,7 +6,7 @@ function initMap() {
         center: { lat: 54, lng: 20 },
         mapTypeId: "terrain",
     });
-    var flightPlanCoordinates = [
+    var flightPlanCoordinates = [  // Change this goddamn name ! ! ! ! ! !
         { lat: 54.409539, lng: 20.480892 },
         { lat: 54.390511, lng: 20.640833 },
         { lat: 54.383542, lng: 19.816714 },
