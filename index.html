@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/diary-slider.css">
+    <link rel="stylesheet" href="assets/styles/diary.css">
+    <link rel="stylesheet" href="assets/styles/historic-timeline.css">
+    <style>
+        .hide {
+            display:none;
+        }
+        .about, .home, .diary, .impressum {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+    </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq5G5c-IqCL1UJMSKiJea6I3BMXWg6b-w&callback=initMap&libraries=&v=weekly"
+            defer
+    ></script>
 
     <title>Kriegstagebuch</title>
 </head>
@@ -20,26 +39,148 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#" data-page="home">Home</a>
+                <a class="nav-link" href="#home" id="home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" data-page="about">About</a>
+                <a class="nav-link" href="#about" id="about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" data-page="diary">Tagebuch</a>
+                <a class="nav-link" href="#diary" id="diary">Tagebuch</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" data-page="impressum">Impressum</a>
+                <a class="nav-link" href="#impressum" id="impressum">Impressum</a>
             </li>
         </ul>
     </div>
 </nav>
 
 <!-- Div container holding the desired content -->
-<div class="container"></div>
+<div class="home hide">
+    <p>Home...</p>
+</div>
+
+<div class="about hide">
+    <p>About....</p>
+</div>
+
+<div class="diary">
+    <div id="timeline1" class="collapse">
+        <div id="hst-date1">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-1" data-bs-toggle="popover" title="Ardennenoffensive" data-placement="bottom" data-bs-content="Mit der Ardennenoffensive misslingt der letzte deutsche Versuch der Wehrmacht, die Alliierten zurückzudrängen.">16.12.44</button>
+            <div class="bottom1"></div>
+        </div>
+        <div id="hst-date2">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-2" data-bs-toggle="popover" title="Sowjetischen Großoffensive" data-placement="bottom" data-bs-content="Beginn der sowjetischen Großoffensive zwischen Memel und Karpaten, Vormarsch auf Berlin">12.01.45</button>
+            <div class="bottom2"></div>
+        </div>
+        <div id="hst-date3">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-3" data-bs-toggle="popover" title="Befreiung Warschaus" data-placement="bottom" data-bs-content="Befreiung Warschaus">17.01.45</button>
+            <div class="bottom1"></div>
+        </div>
+        <div id="hst-date6">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-6" data-bs-toggle="popover" title="Dresden" data-placement="bottom" data-bs-content="Dresden wird durch britische und amerikanische Bombenangriffe zerstört.">13./14.02.45</button>
+            <div class="bottom2"></div>
+        </div>
+        <div id="hst-date7">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-7" data-bs-toggle="popover" title="Bombadierung Wien" data-placement="bottom" data-bs-content="Sowjetische Luftangriffe auf Wien">22.02.45</button>
+            <div class="bottom1"></div>
+        </div>
+        <div id="hst-date10">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-10" data-bs-toggle="popover" title="Harry Truman" data-placement="bottom" data-bs-content="Nach dem Tod von Franklin D. Roosevelt wird Harry Truman Präsident der USA.">12.04.45</button>
+            <div class="bottom1"></div>
+        </div>
+        <!--div id="hst-date11">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-11" data-bs-toggle="popover" title="Seelower Höhen" data-placement="bottom" data-bs-content="Schlacht um die Seelower Höhen (östlich Berlins)">16.04.45</button>
+            <div class="bottom1"></div>
+        </div-->
+        <div id="hst-date13">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-13" data-bs-toggle="popover" title="Ende Ruhrkessel" data-placement="bottom" data-bs-content="Ruhrkessel, eine der letzten großen Schlachten des Zweiten Weltkrieges (01.-21.04.45)">21.04.45</button>
+            <div class="bottom2"></div>
+        </div>
+        <div id="hst-date15">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-15" data-bs-toggle="popover" title="Kapitulation" data-placement="bottom" data-bs-content="Kapitulation der Wehrmacht; Ende des Krieges in Europa (08./09.05.45)">09.05.45</button>
+            <div class="bottom1"></div>
+        </div>
+        <div id="hst-date16">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-16" data-bs-toggle="popover" title="Atombomben" data-placement="bottom" data-bs-content="Abwurf von Atombomben auf die japanischen Städte Hiroshima und Nagasaki (06./09.08.45)">06.08.45</button>
+            <div class="bottom1"></div>
+        </div>
+        <div id="hst-date17">
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-17" data-bs-toggle="popover" title="Kapitulation Japans" data-placement="bottom" data-bs-content="Kapitulation Japans">02.09.45</button>
+            <div class="bottom2"></div>
+        </div>
+    </div>
+
+    <div class="slidecontainer">
+        <input type="range" min="1" max="36" value="1" class="slider" id="sliderId"> <!--max=343-->
+    </div>
+
+    <div id="timeline2" class="collapse">
+        <div id="hst-date4">
+            <div class="bottom2"></div>
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-4" data-bs-toggle="popover" title="Befreiung Auschwitz" data-placement="bottom" data-bs-content="Das Konzentrationslager Auschwitz wird von Einheiten der Roten Armee befreit.">27.01.45</button>
+        </div>
+        <div id="hst-date5">
+            <div class="bottom1"></div>
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-5" data-bs-toggle="popover" title="Ostseeevakuierung" data-placement="bottom" data-bs-content="Evakuierung von über zwei Millionen Deutschen über die Ostsee; 9.000 sterben beim Untergang der Gustloff">30.01.45</button>
+        </div>
+        <div id="hst-date8">
+            <div class="bottom2"></div>
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-8" data-bs-toggle="popover" title="US-Truppen" data-placement="bottom" data-bs-content="US-Truppen erobern die Brücke von Remagen und setzen über den Rhein.">07.03.45</button>
+        </div>
+        <div id="hst-date9">
+            <div class="bottom1"></div>
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-9" data-bs-toggle="popover" title="Nero-Befehl" data-placement="bottom" data-bs-content="Hitler befiehlt, beim Rückzug alles Brauchbare zu zerstören ('Nero'-Befehl).">19.03.45</button>
+        </div>
+        <div id="hst-date12">
+            <div class="bottom2"></div>
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-12" data-bs-toggle="popover" title="Nürnberg" data-placement="bottom" data-bs-content="US-Truppen besetzen Nürnberg, die Stadt der Reichsparteitage.">20.04.45</button>
+        </div>
+        <div id="hst-date14">
+            <div class="bottom1"></div>
+            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-14" data-bs-toggle="popover" title="Berlin" data-placement="bottom" data-bs-content="Die Rote Armee erobert das Zentrum Berlins und hisst auf dem Reichstag die sowjetische Fahne. Hitler und Eva Braun nehmen sich das Leben.">30.04.45</button>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button type="button" class="btn btn-outline-secondary" id="button-previous"><</button>
+        <button type="button" class="btn btn-outline-secondary" id="btn-timeline" data-toggle="collapse" data-target="#timeline1, #timeline2">Historischer Zeitstrahl</button>
+        <span id="status-bloc-sm">Status: <span class="status">Gefecht</span></span>
+        <button type="button" class="btn btn-outline-secondary" id="button-next">></button>
+    </div>
+
+    <div class="card" style="width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title" id="block_container">
+                <span id="date-bloc">Datum: <span id="date"></span></span>
+
+                <span id="status-bloc-lg">Status: <span class="status">Gefecht</span></span>
+
+                <span id="day-bloc">Tag: <span id="day">1</span></span>
+                <br>
+            </h5>
+            <hr>
+            <p class="card-text" id="text-content">Entry text...</p>
+        </div>
+        <div class="card-body">
+            <hr>
+            <h5 class="card-title"></h5>
+            <p class="card-text" id="footer">Footnotes....</p>
+        </div>
+        <div class="card-body" id="map">
+        </div>
+    </div>
+</div>
+
+<div class="impressum hide">
+    <p>Impressum...</p>
+</div>
 
 <!-- Query and Bootstrap Bundle (includes Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="assets/scripts/navbar.js"></script>
+<script type="text/javascript" src="assets/scripts/diary-content.js"></script>
+<script type="text/javascript" src="assets/scripts/poppers.js"></script>
+<script src="assets/scripts/map.js"></script>
 </body>
 </html>

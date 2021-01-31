@@ -1,9 +1,31 @@
-$(document).ready(function() {
-    $(".container").load("diary.html");
-});
+$(function(){
 
-$("ul.navbar-nav li a").each(function() {
-    $(this).on("click", function(){
-        $(".container").load($(this).attr("data-page")+".html");
+    $('#diary').click(function(){
+        $('.home').addClass('hide');
+        $('.about').addClass('hide');
+        $('.impressum').addClass('hide');
+        $('.diary').removeClass('hide');
     });
+
+    $('#home').click(function(){
+        $('.diary').addClass('hide');
+        $('.about').addClass('hide');
+        $('.impressum').addClass('hide');
+        $('.home').removeClass('hide');
+    });
+
+    $('#about').click(function(){
+        $('.diary').addClass('hide');
+        $('.home').addClass('hide');
+        $('.impressum').addClass('hide');
+        $('.about').removeClass('hide');
+    });
+
+    $('#impressum').click(function(){
+        $('.diary').addClass('hide');
+        $('.about').addClass('hide');
+        $('.home').addClass('hide');
+        $('.impressum').removeClass('hide');
+    });
+
 });
