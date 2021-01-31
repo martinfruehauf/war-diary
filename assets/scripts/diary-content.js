@@ -5,6 +5,47 @@ var MAXDAYS = 36; //besser nicht hard coden eigentlich = 343
 var days = [1, 4, 14, 28, 33, 36]; //Besser nicht hardcoden
 var pageId;
 
+
+let footnotesActive = true;
+let sourcesActive = false;
+
+$(function(){
+
+    $('#footnotes-btn').click(function(){
+        if(footnotesActive) {
+            $(this).addClass('btn-outline-secondary');
+            $(this).removeClass('btn-secondary');
+            $('#sources-btn').addClass('hide');
+            $('#footer').addClass('hide');
+            $('sup').addClass('hide');
+            footnotesActive = false;
+        }else {
+            $(this).addClass('btn-secondary');
+            $(this).removeClass('btn-outline-secondary');
+            $('#sources-btn').removeClass('hide');
+            $('#footer').removeClass('hide');
+            $('sup').removeClass('hide');
+            footnotesActive = true;
+        }
+    });
+});
+
+$(function(){
+    $('#sources-btn').click(function(){
+        if(sourcesActive) {
+            $(this).addClass('btn-outline-secondary');
+            $(this).removeClass('btn-secondary');
+            $('.sources').addClass('hide');
+            sourcesActive = false;
+        }else {
+            $(this).addClass('btn-secondary');
+            $(this).removeClass('btn-outline-secondary');
+            $('.sources').removeClass('hide');
+            sourcesActive = true;
+        }
+    });
+});
+
 //Buttons
 document.getElementById("button-next").addEventListener('click', function() {
     if(parseInt(day.textContent) < MAXDAYS) { //const MAXDAYS führte zu Uncaught SyntaxError: Identifier 'MAXDAYS' has already been declared
@@ -53,8 +94,10 @@ function getEntry(id) {
             let text = "";
             for(let i = 0; i < entry.text.length; i++) {
                 text += entry.text[i];
-                if(entry.footer[i]) {
-                    text += "<sup>" + entry.footer[i].id + "</sup>";
+                if(entry.footer[i] && footnotesActive) {
+                    text += "<sup class='footerSup'>" + entry.footer[i].id + "</sup>";
+                } else if(entry.footer[i]) {
+                    text += "<sup class='footerSup hide'>" + entry.footer[i].id + "</sup>";
                 }
             }
             document.getElementById("text-content").innerHTML = text;
@@ -62,7 +105,33 @@ function getEntry(id) {
             //set footer
             let footer = "";
             for(let i = 0; i < entry.footer.length; i++) {
-                footer += "<sup>" + entry.footer[i].id + "</sup>" + entry.footer[i].note +"<br>";
+                if(footnotesActive) {
+                    footer += "<sup class='footerSup'>" + entry.footer[i].id + "</sup>" + entry.footer[i].note +"<br>";
+                } else {
+                    footer += "<sup class='footerSup hide'>" + entry.footer[i].id + "</sup>" + entry.footer[i].note +"<br>";
+                }
+
+                //set sources/links
+                if(entry.footer[i].links && entry.footer[i].links.length>1) {
+                    text = "<i>Quellen: ";
+                    for(let j = 0; j < entry.footer[i].links.length; j++) {
+                        text += "<a href='" + entry.footer[i].links[j] + "' target='_blank'>" + entry.footer[i].links[j];
+                        if(j < entry.footer[i].links.length - 1) {
+                            text += ", </a>";
+                        } else {
+                            text += "</a>";
+                        }
+                    }
+                    text += "</i>";
+                } else if (entry.footer[i].links){
+                    text = "<i>Quelle: " + "<a href='" + entry.footer[i].links[0] + "' target='_blank'>" + entry.footer[i].links[0] + "</a></i>";
+                }
+                if(sourcesActive) {
+                    footer += "<p class='sources'>"+text+"</p>";
+                }else {
+                    footer += "<p class='sources hide'>"+text+"</p>";
+                }
+
             }
 
             document.getElementById("footer").innerHTML = footer;
