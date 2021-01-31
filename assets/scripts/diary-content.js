@@ -87,7 +87,7 @@ function getEntry(id) {
 }
 
 // Slider : works either with input or onchange. oninput offers better ui experience, but results in loads of http requests
-slider.oninput = function() {
+slider.onchange = function() {
     let tempDays = 0;
     let tempArrId = 0;
     for(let i = 0; i < days.length; i++) {
