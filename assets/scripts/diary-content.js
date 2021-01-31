@@ -7,7 +7,32 @@ var pageId;
 
 
 let footnotesActive = true;
+let mapActive = true;
 let sourcesActive = false;
+
+$(function(){
+    $('.btn-preface').click(function(){
+            $('.cover').addClass('hide');
+            $('.entries').addClass('hide');
+            $('.preface').removeClass('hide');
+        })
+});
+
+$(function(){
+    $('.btn-cover').click(function(){
+        $('.preface').addClass('hide');
+        $('.entries').addClass('hide');
+        $('.cover').removeClass('hide');
+    })
+});
+
+$(function(){
+    $('.btn-entries').click(function(){
+        $('.preface').addClass('hide');
+        $('.cover').addClass('hide');
+        $('.entries').removeClass('hide');
+    })
+});
 
 $(function(){
 
@@ -42,6 +67,18 @@ $(function(){
             $(this).removeClass('btn-outline-secondary');
             $('.sources').removeClass('hide');
             sourcesActive = true;
+        }
+    });
+});
+
+$(function(){
+    $('#map-btn').click(function(){
+        if(mapActive) {
+            $('#map').addClass('hide');
+            mapActive = false;
+        }else {
+            $('#map').removeClass('hide');
+            mapActive = true;
         }
     });
 });
@@ -112,24 +149,25 @@ function getEntry(id) {
                 }
 
                 //set sources/links
+                let sourceText = "";
                 if(entry.footer[i].links && entry.footer[i].links.length>1) {
-                    text = "<i>Quellen: ";
+                    sourceText = "<i>Quellen: ";
                     for(let j = 0; j < entry.footer[i].links.length; j++) {
-                        text += "<a href='" + entry.footer[i].links[j] + "' target='_blank'>" + entry.footer[i].links[j];
+                        sourceText += "<a href='" + entry.footer[i].links[j] + "' target='_blank'>" + entry.footer[i].links[j];
                         if(j < entry.footer[i].links.length - 1) {
-                            text += ", </a>";
+                            sourceText += ", </a>";
                         } else {
-                            text += "</a>";
+                            sourceText += "</a>";
                         }
                     }
-                    text += "</i>";
+                    sourceText += "</i>";
                 } else if (entry.footer[i].links){
-                    text = "<i>Quelle: " + "<a href='" + entry.footer[i].links[0] + "' target='_blank'>" + entry.footer[i].links[0] + "</a></i>";
+                    sourceText = "<i>Quelle: " + "<a href='" + entry.footer[i].links[0] + "' target='_blank'>" + entry.footer[i].links[0] + "</a></i>";
                 }
                 if(sourcesActive) {
-                    footer += "<p class='sources'>"+text+"</p>";
+                    footer += "<p class='sources'>" + sourceText + "</p>";
                 }else {
-                    footer += "<p class='sources hide'>"+text+"</p>";
+                    footer += "<p class='sources hide'>" + sourceText + "</p>";
                 }
 
             }

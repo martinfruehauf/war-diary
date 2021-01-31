@@ -15,6 +15,12 @@
             max-width: 1200px;
             margin: auto;
         }
+        .cover {
+            margin-top: 4px;
+        }
+        .preface {
+            margin-top: 4px;
+        }
 
     </style>
 
@@ -64,112 +70,154 @@
 </div>
 
 <div class="diary">
+    <div class="card cover" style="width: 100%;">
+        <div class="card-body" style="text-align: center;">
+            <br><br>
+            Meiner Familie gewidmet<br><br><br><br><br><br>
+            am 1. Weihnachtsfest<br><br>
+            nach dem grossen Kriege.<br><br><br><br><br><br><br>
+            Steinheim a/Main, 25.Dezember 1945<br><br><br><br><br>
+            Josef Frühauf.<br><br>
+        </div>
+        <div class="card-header">
+            <button type="button" class="btn btn-outline-secondary top btn-cover" disabled>Deckblatt</button>
+            <button type="button" class="btn btn-outline-secondary top btn-preface">Vorwort</button>
+            <button type="button" class="btn btn-outline-secondary top btn-entries">Tagebucheinträge</button>
+        </div>
+    </div>
+    <div class="card preface hide" style="width: 100%;">
+        <div class="card-body">
+            V O R W O R T !<br><br><br>
+            „Mit Mannen, Ross und Wagen<br>
+            hat sie der Herr geschlagen.“<br><br>
+            Die nachfolgenden Zeilen bringen zwar nicht eine Schilderung des Untergangs der napoleonischen Armée, aber sie berichten ebenfalls von einem Zusammenbruch und zwar dem grössten, den ein Volk je in seiner Geschichte erlebt hat.<br><br>
+            Da ich als kleiner „unbekannter“ Soldat diese Katastrophe rechtzeitig kommen sah, habe ich mir vom Tage meines letztens Urlaubs an bis zur Rückkehr aus der Gefangenschaft in eine inzwischen veränderte und entfremdete Heimat Aufzeichnung gemacht, die ich nachstehend in kurzen Ausführungen wiedergebe. Was dem Heftchen an Sensation und Abenteuergeist fehlt, ist wettgemacht durch unbedingte Wahrhaftigkeit.<br><br>
+            Wenn die folgenden Zeilen mit dazu beitragen, dass die Kinder von Ekel und Abscheu vor Krieg und Militarismus erfüllt werden, und die deutsche Mutter wieder das Glück des häuslichen Familienlebens zu würdigen weiss, dann hat das Büchlein seinen Zweck voll und ganz erfüllt.<br><br>
+            <br><br><span style="float: right;">Josef Frühauf.</span>
+        </div>
+        <div class="card-header">
+            <button type="button" class="btn btn-outline-secondary top btn-cover">Deckblatt</button>
+            <button type="button" class="btn btn-outline-secondary top btn-preface" disabled>Vorwort</button>
+            <button type="button" class="btn btn-outline-secondary top btn-entries">Tagebucheinträge</button>
+        </div>
+    </div>
+
+
+    <div class="entries hide">
+
     <div id="timeline1" class="collapse">
-        <div id="hst-date1">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-1" data-bs-toggle="popover" title="Ardennenoffensive" data-placement="bottom" data-bs-content="Mit der Ardennenoffensive misslingt der letzte deutsche Versuch der Wehrmacht, die Alliierten zurückzudrängen.">16.12.44</button>
-            <div class="bottom1"></div>
+            <div id="hst-date1">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-1" data-bs-toggle="popover" title="Ardennenoffensive" data-placement="bottom" data-bs-content="Mit der Ardennenoffensive misslingt der letzte deutsche Versuch der Wehrmacht, die Alliierten zurückzudrängen.">16.12.44</button>
+                <div class="bottom1"></div>
+            </div>
+            <div id="hst-date2">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-2" data-bs-toggle="popover" title="Sowjetischen Großoffensive" data-placement="bottom" data-bs-content="Beginn der sowjetischen Großoffensive zwischen Memel und Karpaten, Vormarsch auf Berlin">12.01.45</button>
+                <div class="bottom2"></div>
+            </div>
+            <div id="hst-date3">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-3" data-bs-toggle="popover" title="Befreiung Warschaus" data-placement="bottom" data-bs-content="Befreiung Warschaus">17.01.45</button>
+                <div class="bottom1"></div>
+            </div>
+            <div id="hst-date6">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-6" data-bs-toggle="popover" title="Dresden" data-placement="bottom" data-bs-content="Dresden wird durch britische und amerikanische Bombenangriffe zerstört.">13./14.02.45</button>
+                <div class="bottom2"></div>
+            </div>
+            <div id="hst-date7">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-7" data-bs-toggle="popover" title="Bombadierung Wien" data-placement="bottom" data-bs-content="Sowjetische Luftangriffe auf Wien">22.02.45</button>
+                <div class="bottom1"></div>
+            </div>
+            <div id="hst-date10">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-10" data-bs-toggle="popover" title="Harry Truman" data-placement="bottom" data-bs-content="Nach dem Tod von Franklin D. Roosevelt wird Harry Truman Präsident der USA.">12.04.45</button>
+                <div class="bottom1"></div>
+            </div>
+            <!--div id="hst-date11">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-11" data-bs-toggle="popover" title="Seelower Höhen" data-placement="bottom" data-bs-content="Schlacht um die Seelower Höhen (östlich Berlins)">16.04.45</button>
+                <div class="bottom1"></div>
+            </div-->
+            <div id="hst-date13">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-13" data-bs-toggle="popover" title="Ende Ruhrkessel" data-placement="bottom" data-bs-content="Ruhrkessel, eine der letzten großen Schlachten des Zweiten Weltkrieges (01.-21.04.45)">21.04.45</button>
+                <div class="bottom2"></div>
+            </div>
+            <div id="hst-date15">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-15" data-bs-toggle="popover" title="Kapitulation" data-placement="bottom" data-bs-content="Kapitulation der Wehrmacht; Ende des Krieges in Europa (08./09.05.45)">09.05.45</button>
+                <div class="bottom1"></div>
+            </div>
+            <div id="hst-date16">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-16" data-bs-toggle="popover" title="Atombomben" data-placement="bottom" data-bs-content="Abwurf von Atombomben auf die japanischen Städte Hiroshima und Nagasaki (06./09.08.45)">06.08.45</button>
+                <div class="bottom1"></div>
+            </div>
+            <div id="hst-date17">
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-17" data-bs-toggle="popover" title="Kapitulation Japans" data-placement="bottom" data-bs-content="Kapitulation Japans">02.09.45</button>
+                <div class="bottom2"></div>
+            </div>
         </div>
-        <div id="hst-date2">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-2" data-bs-toggle="popover" title="Sowjetischen Großoffensive" data-placement="bottom" data-bs-content="Beginn der sowjetischen Großoffensive zwischen Memel und Karpaten, Vormarsch auf Berlin">12.01.45</button>
-            <div class="bottom2"></div>
-        </div>
-        <div id="hst-date3">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-3" data-bs-toggle="popover" title="Befreiung Warschaus" data-placement="bottom" data-bs-content="Befreiung Warschaus">17.01.45</button>
-            <div class="bottom1"></div>
-        </div>
-        <div id="hst-date6">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-6" data-bs-toggle="popover" title="Dresden" data-placement="bottom" data-bs-content="Dresden wird durch britische und amerikanische Bombenangriffe zerstört.">13./14.02.45</button>
-            <div class="bottom2"></div>
-        </div>
-        <div id="hst-date7">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-7" data-bs-toggle="popover" title="Bombadierung Wien" data-placement="bottom" data-bs-content="Sowjetische Luftangriffe auf Wien">22.02.45</button>
-            <div class="bottom1"></div>
-        </div>
-        <div id="hst-date10">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-10" data-bs-toggle="popover" title="Harry Truman" data-placement="bottom" data-bs-content="Nach dem Tod von Franklin D. Roosevelt wird Harry Truman Präsident der USA.">12.04.45</button>
-            <div class="bottom1"></div>
-        </div>
-        <!--div id="hst-date11">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-11" data-bs-toggle="popover" title="Seelower Höhen" data-placement="bottom" data-bs-content="Schlacht um die Seelower Höhen (östlich Berlins)">16.04.45</button>
-            <div class="bottom1"></div>
-        </div-->
-        <div id="hst-date13">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-13" data-bs-toggle="popover" title="Ende Ruhrkessel" data-placement="bottom" data-bs-content="Ruhrkessel, eine der letzten großen Schlachten des Zweiten Weltkrieges (01.-21.04.45)">21.04.45</button>
-            <div class="bottom2"></div>
-        </div>
-        <div id="hst-date15">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-15" data-bs-toggle="popover" title="Kapitulation" data-placement="bottom" data-bs-content="Kapitulation der Wehrmacht; Ende des Krieges in Europa (08./09.05.45)">09.05.45</button>
-            <div class="bottom1"></div>
-        </div>
-        <div id="hst-date16">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-16" data-bs-toggle="popover" title="Atombomben" data-placement="bottom" data-bs-content="Abwurf von Atombomben auf die japanischen Städte Hiroshima und Nagasaki (06./09.08.45)">06.08.45</button>
-            <div class="bottom1"></div>
-        </div>
-        <div id="hst-date17">
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-17" data-bs-toggle="popover" title="Kapitulation Japans" data-placement="bottom" data-bs-content="Kapitulation Japans">02.09.45</button>
-            <div class="bottom2"></div>
-        </div>
-    </div>
 
-    <div class="slidecontainer">
-        <input type="range" min="1" max="36" value="1" class="slider" id="sliderId"> <!--max=343-->
-    </div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="36" value="1" class="slider" id="sliderId"> <!--max=343-->
+        </div>
 
-    <div id="timeline2" class="collapse">
-        <div id="hst-date4">
-            <div class="bottom2"></div>
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-4" data-bs-toggle="popover" title="Befreiung Auschwitz" data-placement="bottom" data-bs-content="Das Konzentrationslager Auschwitz wird von Einheiten der Roten Armee befreit.">27.01.45</button>
+        <div id="timeline2" class="collapse">
+            <div id="hst-date4">
+                <div class="bottom2"></div>
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-4" data-bs-toggle="popover" title="Befreiung Auschwitz" data-placement="bottom" data-bs-content="Das Konzentrationslager Auschwitz wird von Einheiten der Roten Armee befreit.">27.01.45</button>
+            </div>
+            <div id="hst-date5">
+                <div class="bottom1"></div>
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-5" data-bs-toggle="popover" title="Ostseeevakuierung" data-placement="bottom" data-bs-content="Evakuierung von über zwei Millionen Deutschen über die Ostsee; 9.000 sterben beim Untergang der Gustloff">30.01.45</button>
+            </div>
+            <div id="hst-date8">
+                <div class="bottom2"></div>
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-8" data-bs-toggle="popover" title="US-Truppen" data-placement="bottom" data-bs-content="US-Truppen erobern die Brücke von Remagen und setzen über den Rhein.">07.03.45</button>
+            </div>
+            <div id="hst-date9">
+                <div class="bottom1"></div>
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-9" data-bs-toggle="popover" title="Nero-Befehl" data-placement="bottom" data-bs-content="Hitler befiehlt, beim Rückzug alles Brauchbare zu zerstören ('Nero'-Befehl).">19.03.45</button>
+            </div>
+            <div id="hst-date12">
+                <div class="bottom2"></div>
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-12" data-bs-toggle="popover" title="Nürnberg" data-placement="bottom" data-bs-content="US-Truppen besetzen Nürnberg, die Stadt der Reichsparteitage.">20.04.45</button>
+            </div>
+            <div id="hst-date14">
+                <div class="bottom1"></div>
+                <button type="button" class="btn btn-outline-secondary top" id="hst-btn-14" data-bs-toggle="popover" title="Berlin" data-placement="bottom" data-bs-content="Die Rote Armee erobert das Zentrum Berlins und hisst auf dem Reichstag die sowjetische Fahne. Hitler und Eva Braun nehmen sich das Leben.">30.04.45</button>
+            </div>
         </div>
-        <div id="hst-date5">
-            <div class="bottom1"></div>
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-5" data-bs-toggle="popover" title="Ostseeevakuierung" data-placement="bottom" data-bs-content="Evakuierung von über zwei Millionen Deutschen über die Ostsee; 9.000 sterben beim Untergang der Gustloff">30.01.45</button>
-        </div>
-        <div id="hst-date8">
-            <div class="bottom2"></div>
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-8" data-bs-toggle="popover" title="US-Truppen" data-placement="bottom" data-bs-content="US-Truppen erobern die Brücke von Remagen und setzen über den Rhein.">07.03.45</button>
-        </div>
-        <div id="hst-date9">
-            <div class="bottom1"></div>
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-9" data-bs-toggle="popover" title="Nero-Befehl" data-placement="bottom" data-bs-content="Hitler befiehlt, beim Rückzug alles Brauchbare zu zerstören ('Nero'-Befehl).">19.03.45</button>
-        </div>
-        <div id="hst-date12">
-            <div class="bottom2"></div>
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-12" data-bs-toggle="popover" title="Nürnberg" data-placement="bottom" data-bs-content="US-Truppen besetzen Nürnberg, die Stadt der Reichsparteitage.">20.04.45</button>
-        </div>
-        <div id="hst-date14">
-            <div class="bottom1"></div>
-            <button type="button" class="btn btn-outline-secondary top" id="hst-btn-14" data-bs-toggle="popover" title="Berlin" data-placement="bottom" data-bs-content="Die Rote Armee erobert das Zentrum Berlins und hisst auf dem Reichstag die sowjetische Fahne. Hitler und Eva Braun nehmen sich das Leben.">30.04.45</button>
-        </div>
-    </div>
 
-    <div class="buttons">
-        <button type="button" class="btn btn-outline-secondary" id="button-previous"><</button>
-        <button type="button" class="btn btn-outline-secondary" id="btn-timeline" data-toggle="collapse" data-target="#timeline1, #timeline2">Historischer Zeitstrahl</button>
-        <span id="status-bloc-sm">Status: <span class="status">Gefecht</span></span>
-        <button type="button" class="btn btn-outline-secondary" id="button-next">></button>
-    </div>
-
-    <div class="card" style="width: 100%;">
-        <div class="card-body">
-            <h5 class="card-title" id="block_container">
-                <span id="date-bloc">Datum: <span id="date"></span></span>
-
-                <span id="status-bloc-lg">Status: <span class="status">Gefecht</span></span>
-
-                <span id="day-bloc">Tag: <span id="day">1</span></span>
-                <br>
-            </h5>
-            <hr>
-            <p class="card-text" id="text-content">Entry text...</p>
+        <div class="buttons">
+            <button type="button" class="btn btn-outline-secondary" id="button-previous"><</button>
+            <button type="button" class="btn btn-outline-secondary" id="btn-timeline" data-toggle="collapse" data-target="#timeline1, #timeline2">Historischer Zeitstrahl</button>
+            <span id="status-bloc-sm">Status: <span class="status">Gefecht</span></span>
+            <button type="button" class="btn btn-outline-secondary" id="button-next">></button>
         </div>
-        <div class="card-body">
-            <hr>
-            <h5 class="card-title"></h5>
-            <button id="footnotes-btn" type="button" class="btn btn-secondary btn-sm">Fußnoten</button>
-            <button id="sources-btn" type="button" class="btn btn-outline-secondary btn-sm">Quellen</button>
-            <p class="card-text" id="footer">Footnotes....</p>
+
+        <div class="card" style="width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title" id="block_container">
+                    <span id="date-bloc">Datum: <span id="date"></span></span>
+
+                    <span id="status-bloc-lg">Status: <span class="status">Gefecht</span></span>
+
+                    <span id="day-bloc">Tag: <span id="day">1</span></span>
+                    <br>
+                </h5>
+                <hr>
+                <p class="card-text" id="text-content">Entry text...</p>
+            </div>
+            <div class="card-body">
+                <hr>
+                <h5 class="card-title"></h5>
+                <button id="map-btn" type="button" class="btn btn-secondary btn-sm">Karte</button>
+                <button id="footnotes-btn" type="button" class="btn btn-secondary btn-sm">Fußnoten</button>
+                <button id="sources-btn" type="button" class="btn btn-outline-secondary btn-sm">Quellen</button>
+                <p class="card-text" id="footer">Footnotes....</p>
+            </div>
+            <div class="card-body" id="map">
+            </div>
         </div>
-        <div class="card-body" id="map">
+        <div class="card-header">
+            <button type="button" class="btn btn-outline-secondary top btn-cover">Deckblatt</button>
+            <button type="button" class="btn btn-outline-secondary top btn-preface">Vorwort</button>
+            <button type="button" class="btn btn-outline-secondary top btn-entries" disabled>Tagebucheinträge</button>
         </div>
     </div>
 </div>
