@@ -15,20 +15,27 @@
       "coordinates": {
         "lat": 54.5,
         "lng": 19.8
-      }
+      },
+      "links": null
     },
     {
       "id": 6,
       "note": "menschen???",
-      "coordinates": null
+      "coordinates": null,
+      "links": [
+        "www.abc.de", "www.def.com"
+      ]
     },
     {
       "id": 7,
-      "note": "schnabelbabel",
+      "note": "testestest123456",
       "coordinates": {
         "lat": 54.6,
         "lng": 19.5
-      }
+      },
+      "links": [
+        "www.hlk.de"
+      ]
     }
   ]
 }

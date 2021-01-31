@@ -13,7 +13,8 @@
             "coordinates": {
                 "lat": 54.409539,
                 "lng": 20.480892
-            }
+            },
+            "links": ["www.testlink.de"]
         }
     ]
 }
