@@ -35,14 +35,14 @@
     appearance: none;
     width: 5px; /* Set a specific slider handle width */
     height: 50px; /* Slider handle height */
-    background: lightgrey; /* Green background */
+    background: grey; /* Green background */
     cursor: pointer; /* Cursor on hover */
     border-radius: 2px;
 }
 
 .slider::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
+    width: 5px; /* Set a specific slider handle width */
+    height: 50px; /* Slider handle height */
+    background: grey; /* Green background */
     cursor: pointer; /* Cursor on hover */
 }
