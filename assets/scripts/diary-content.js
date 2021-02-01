@@ -169,14 +169,17 @@ function getEntry(id) {
                 }else {
                     footer += "<p class='sources hide'>" + sourceText + "</p>";
                 }
-
             }
-
             document.getElementById("footer").innerHTML = footer;
 
             //set coordinates
             if(map && entry.footer.length) {
-                clearMarkers();
+                for(let i = 0; i < entry.footer.length; i++) {
+                    if(entry.footer[i].coordinates) {
+                        clearMarkers();
+                        break;
+                    }
+                }
                 for (let i = 0; i < entry.footer.length; i++) {
                     if(entry.footer[i].coordinates) {
                         setMarker(parseFloat(entry.footer[i].coordinates.lat), parseFloat(entry.footer[i].coordinates.lng), entry.footer[i].id);
