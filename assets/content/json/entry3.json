@@ -9,10 +9,10 @@
     "footer": [
         {
             "id": 3,
-            "note": "Heute Braniewo, Polen",
+            "note": "Heute Braniewo, Polen.",
             "coordinates": {
-                "lat": 54.383333,
-                "lng": 19.816667
+                "lat": "54.383542",
+                "lng": "19.816714"
             },
             "links": null
         }

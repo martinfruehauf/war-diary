@@ -1,0 +1,25 @@
+{
+    "day": 338,
+    "date": [
+        "05.10.45"
+    ],
+    "text": [
+        "Früh morgens werden beim Aussteigen längs des Zuges Freudenfeuer angezündet und sämtliche Holzpritschen mitsamt Strohlager verbrannt. Anschliessend Marsch ins Entlassungslager",
+        ". Daselbst entlausen, Ausstellen der Entlassungspapiere und Abfertigung. Dazwischen fand die Ankunft von 1.400 deutschen Männern und Frauen aus dem Ural statt. Die Ankömmlinge sahen aus wie lebende Leichname. Sie hatten unterwegs 160 Tote. Ihre Enthüllung über ihre Lebensweise und die Arbeitsbedingungen in den Bleiwerken war furchtbar."
+    ],
+    "footer": [
+        {
+            "id": 89,
+            "note": "Entweder das Heimkehrerlager Gronenfelde oder (eher da erst 1946 die große Heimkehrerwelle kam) die Lager Hornkaserne (Bezeichnung Kriegsgefangenenlager 69 Frankfurt Oder). Heute Sitz der Polizeidirektion Ost in der Nuhnenstraße 40.",
+            "coordinates": {
+                "lat": "52.342833",
+                "lng": "14.503667"
+            },
+            "links": [
+                "https://de.wikipedia.org/wiki/Heimkehrerlager_Gronenfelde",
+                "https://berlinstaiga.de/themen/zweiter-weltkrieg/frankfurt-oder/",
+                "https://www.welt.de/geschichte/article157319968/Als-Frankfurt-an-der-Oder-zum-Hoffnungsort-wurde.html"
+            ]
+        }
+    ]
+}

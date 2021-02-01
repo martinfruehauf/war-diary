@@ -1,0 +1,31 @@
+{
+    "day": 290,
+    "date": [
+        "18.08.45"
+    ],
+    "text": [
+        "In aller Frühe antreten, für uns Ausgesuchte stehen Lkws. bereit, und ab geht es, 32 km zurück von Kurscheney",
+        " zum Hauptlager Schaulen",
+        ". Dort weiss kein Mensch, was man mit uns vorhat, weil wir die Ersten sind, aber im Laufe des Tages treffen von allen Teillagern tausende von Kriegsgefangenen ein, die alle in Zone 4 aufgefangen werden. Es scheint tatsächlich was los zu sein. Phantastische Gerüchte machen den Landser verrückt und kosten ihn viel Nerven. Ich verschaffe mir infolge eines kleinen Tabakvorrates täglich zusätzlich ein Essen und leide vorläufig keinen Hunger mehr. Die Nächte sind entsetzlich wegen der Millionen von Wanzen. Die meisten Kameraden schlafen vor den Baracken im Gras, riskieren aber dabei, von den Posten beschossen zu werden, weil der nächtliche Aufenthalt im Freien verboten ist."
+    ],
+    "footer": [
+        {
+            "id": 64,
+            "note": "Kuršėnai (deutsch: Kurschenen; russisch Курше́най). Litauen.",
+            "coordinates": {
+                "lat": "56.005556",
+                "lng": "22.936111"
+            },
+            "links": null
+        },
+        {
+            "id": 65,
+            "note": "Šiauliai, Litauen (russisch: Schjauljai (Шяуля́й)). Hier bestand das sowjetische Kriegsgefangenenlager 294 für deutsche Kriegsgefangene.",
+            "coordinates": {
+                "lat": "55.928056",
+                "lng": "23.315000"
+            },
+            "links": null
+        }
+    ]
+}

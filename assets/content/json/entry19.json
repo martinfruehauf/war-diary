@@ -1,0 +1,31 @@
+{
+    "day": 80,
+    "date": [
+        "20.01.45"
+    ],
+    "text": [
+        "In der Nacht Weiterfahrt in Richtung Kreuzingen",
+        " (Skaisgirren). Kreuzingen ist aber bereits von Russen besetzt und brennt in allen Ecken. Grosse nördliche Umgehungsfahrt nach Grossenbaum",
+        ". Unterwegs unsägliches Elend des Flüchtlingsstroms. Längs der Strasse liegen haufenweise erfrorene Leichen, besonders von Kindern. In Grossenbaum Zusammentreffen mit Reisendem Emil Bauer aus Hanau. Freudige Ueberraschung beiderseits. Seit 2 Tagen wieder einmal schweren Dienst, besonders bei Nacht. Ich finde buchstäblich keine Minute Freizeit zum Schlafen."
+    ],
+    "footer": [
+        {
+            "id": 22,
+            "note": "Heute Bolschakowo (Большаково), Russland.",
+            "coordinates": {
+                "lat": "54.880278",
+                "lng": "21.652778"
+            },
+            "links": null
+        },
+        {
+            "id": 23,
+            "note": "Wohl eher Groß Baum; heute Sosnowka (Сосновка), Russland.",
+            "coordinates": {
+                "lat": "54.823000",
+                "lng": "21.348000"
+            },
+            "links": null
+        }
+    ]
+}

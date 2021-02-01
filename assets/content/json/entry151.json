@@ -1,0 +1,31 @@
+{
+    "day": 346,
+    "date": [
+        "13.10.45"
+    ],
+    "text": [
+        "Am frühen Morgen komme ich in Steinheim",
+        " an, völlig zerlumpt, verhungert und verzweifelt. 48 Pfund meines Körpergewichtes hatte ich verloren. Bereits unterwegs hat man mir erzählt, dass die Schwiegereltern durch Bombenterror getötet, ihr Haus total zerstört und meine eigene Familie durch die amerikanische Besatzung des Hauses",
+        " verwiesen worden ist. Dieses und noch manches andere traf mich mit wichtigen Keulenschlägen und liess kein Gefühl der Freude in mir aufkommen. Ich hatte mir jedenfalls die Rückkehr in die Heimat ganz anders vorgestellt. Nun gilt es, auf den Trümmern unseres armen, aus allen Wunden blutenden Vaterlandes eine neue, wenn auch bescheidene Zukunft aufzubauen."
+    ],
+    "footer": [
+        {
+            "id": 115,
+            "note": "Heute Hanau-Steinheim, Hessen. Da das Haus besetzt war, wohnten sie alternativ in der Eppsteinstraße 30.",
+            "coordinates": {
+                "lat": "50.108944",
+                "lng": "8.909806"
+            },
+            "links": null
+        },
+        {
+            "id": 116,
+            "note": "Am Albanusweinberg. Hausnummer (noch) unbekannt.",
+            "coordinates": {
+                "lat": "50.104528",
+                "lng": "8.909528"
+            },
+            "links": null
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "day": 331,
+    "date": [
+        "28.09.45"
+    ],
+    "text": [
+        "Nach längerem Aufenthalt in Schneidemühl wieder weiter über Kreuz a/Ostbahn",
+        ", Landsberg",
+        " (hier schrieb Hitler in der Festung sein Buch: Mein Kampf)",
+        " nach Küstrin",
+        ", wo uns wieder eine lange Haltezeit bevorsteht. Jetzt sind wir nur noch 27 km von unserem vorläufigen Reiseziel Frankfurt/Oder entfernt. Hier hören wir zum ersten Mal näheres über die wirklichen Zustände im Reich und besonders Berlin. Manches davon ist uns ganz unfassbar. Ueberrascht sind wir, dass das alte Geld noch seinen Wert haben soll, nachdem wir es in der Gefangenschaft bündelweise weggeworfen hatten oder für \"andere\" Zwecke verwendet haben. Verschiedenes hatten wir uns schlimmer, manches aber auch nicht so furchtbar gedacht. Ich bin erneut in schwerer Sorge bei dem Gedanken an meine Familie. Hoffentlich kann ich von Frankfurt/Oder aus auf schnellstem Weg nach Hause. Ich habe plötzlich keine Ruhe mehr."
+    ],
+    "footer": [
+        {
+            "id": 82,
+            "note": "Krzyż Wielkopolski (deutsch Kreuz (Ostbahn)), Polen.",
+            "coordinates": {
+                "lat": "52.877722",
+                "lng": "16.018333"
+            },
+            "links": null
+        },
+        {
+            "id": 83,
+            "note": "Gorzów Wielkopolski (deutsch Landsberg an der Warthe), Polen.",
+            "coordinates": {
+                "lat": "52.727722",
+                "lng": "15.229389"
+            },
+            "links": null
+        },
+        {
+            "id": 84,
+            "note": "Hier verwechselt Josef Frühauf Landsberg an der Warthe und Landsberg am Lech (Bayern), wo sich die Festung Landsberg (mit der sog. \"Hitlerzelle\") befand, in der Hitler \"Mein Kampf\" schrieb.",
+            "coordinates": null,
+            "links": [
+                "https://de.wikipedia.org/wiki/Mein_Kampf#Absicht_und_Entstehung"
+            ]
+        },
+        {
+            "id": 85,
+            "note": "Kostrzyn nad Odrą (deutsch Küstrin, bis 1928 Cüstrin geschrieben), Polen.",
+            "coordinates": {
+                "lat": "52.591750",
+                "lng": "14.647000"
+            },
+            "links": null
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "day": 130,
+    "date": [
+        "11.03.45"
+    ],
+    "text": [
+        "Ich lerne bei einer Verdunkelungskontrolle",
+        " die Oberschwester Elsbeth Terlinden in einer Privatklinik kennen."
+    ],
+    "footer": [
+        {
+            "id": 37,
+            "note": "Die Verdunkelung ist eine Maßnahme des Luftschutzes bei Nacht. Sie soll bei Luftangriffen feindlicher Flieger die Orientierung und das Auffinden der Ziele erschweren.",
+            "coordinates": null,
+            "links": [
+                "https://de.wikipedia.org/wiki/Verdunkelung_(Luftschutz)"
+            ]
+        }
+    ]
+}

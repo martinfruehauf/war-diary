@@ -1,0 +1,30 @@
+{
+    "day": 134,
+    "date": [
+        "15.03.45"
+    ],
+    "text": [
+        "Wir haben plötzlich weniger Dienst, da wir als junge Kv.-Leute",
+        " vom Divisonsstab weg und in den Graben kommen sollen. Unsere Ersatzleute sind bereits da. Täglich finden Erschiessungen im Tiergarten statt. Es betrifft meistens Soldaten, die in Königsberg beheimatet sind und vorübergehend ihre Familie aufgesucht haben. Die Leichen bekommen einen Schild umgehängt mit der Inschrift: „Weil ich feige war, wurde ich erschossen“. So werden sie 8 Tage lang am Nordbahnhof",
+        " aufgestellt."
+    ],
+    "footer": [
+        {
+            "id": 38,
+            "note": "Kriegsverwendungsfähig = überall und für jede Verwendung einsetzbar",
+            "coordinates": null,
+            "links": [
+                "https://www.bundesarchiv.de/DE/Content/Downloads/Aus-unserer-Arbeit/z-kartei-pa-abkuerzungen.pdf?__blob=publicationFile"
+            ]
+        },
+        {
+            "id": 40,
+            "note": "Heute Bahnhof Kaliningrad-Sewerny (Калининград-Северный, Kaliningrad Nord oder umgangssprachlich: Северный вокзал – Nordbahnhof). Hauptgebäude ist heute ein Shoppingcenter.",
+            "coordinates": {
+                "lat": "54.720667",
+                "lng": "20.499694"
+            },
+            "links": null
+        }
+    ]
+}

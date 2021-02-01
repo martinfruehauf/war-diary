@@ -1,0 +1,41 @@
+{
+    "day": 78,
+    "date": [
+        "18.01.45"
+    ],
+    "text": [
+        "Wir sind 3/4 eingeschlossen und können uns nicht mehr halten. Sämtliche Geheimakten wurden auf höheren Befehl verbrannt. In letzter Minute, während schon die russischen Panzer aus allen Rohren in unser Gehöft schiessen, gelingt noch der Rückzug in Richtung Schillen",
+        ". Unterwegs, hinter Ostmoor",
+        ", entdecken unsere Landser",
+        " ein deutsches Verpflegungslager, das bereits in hellen Flammen steht; obwohl der Russe dicht hinter uns ist und wir heftiges Feuer bekommen, hält der Lkw. Einige Landser springen in das brennende Gebäude und holen Schokolade und Zigaretten kistenweise. Anschliessend Weiterfahrt bis zur völligen Dunkelheit. Am Panzergraben Brücke von deutschen Pionieren bereits gesprengt. Wieder zurück durch feindliches M.-G.-Feuer. Die Strasse vollständig verstopft durch zurückflutendes Militär und Zivil. Grosse Kälte. Wir steigen mit einer Mappe Geheimakten aus, um uns einige Stunden warm zu laufen, verfehlen aber unterwegs unser Auto und sind von der Einheit versprengt. Ein Hauptmann der Panzerjäger nimmt uns um Mitternacht im Auto mit nach Schillen",
+        ". Dort sollen wir morgen am:"
+    ],
+    "footer": [
+        {
+            "id": 16,
+            "note": "Heute Schilino (Жилино), Russland.",
+            "coordinates": {
+                "lat": "54.906667",
+                "lng": "21.925000"
+            },
+            "links": null
+        },
+        {
+            "id": 17,
+            "note": "Auch Wingschnienen. Heute Slobodskoje ist eines der drei Dörfer des Ortes Malomoschaiskoje (Маломожайское), Russland.",
+            "coordinates": {
+                "lat": "54.920000",
+                "lng": "22.200000"
+            },
+            "links": null
+        },
+        {
+            "id": 18,
+            "note": "umgangssprachlich, veraltend: einfacher Soldat",
+            "coordinates": null,
+            "links": [
+                "https://de.wiktionary.org/wiki/Landser"
+            ]
+        }
+    ]
+}

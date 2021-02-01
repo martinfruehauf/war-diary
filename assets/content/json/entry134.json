@@ -1,0 +1,61 @@
+{
+    "day": 325,
+    "date": [
+        "22.09.45"
+    ],
+    "text": [
+        "Die Fahrt geht weiter über Wirballen",
+        ", Eydtkau",
+        ", Ebenrode",
+        ", Gumbinnen",
+        " nach Insterburg",
+        ", wo wahrscheinlich längerer Aufenthalt sein wird. Nach einem Tag Fahrt haben wir im Zug 4 Tote."
+    ],
+    "footer": [
+        {
+            "id": 70,
+            "note": "Virbalis, deutsch Wirballen, polnisch Wierzbołów, russisch Werschbolow (Вержболово), Litauen. Der Bahnhof in der nahgelegenen Stadt Kybartai (polnisch Kibarty, deutsch veraltet Kibarten) trägt ebenfalls den Name Wirballen. Die Stadt Wirballen selbst hat keinen Bahnhof.",
+            "coordinates": {
+                "lat": "54.640256",
+                "lng": "22.759144"
+            },
+            "links": null
+        },
+        {
+            "id": 71,
+            "note": "Tschernyschewskoje (russisch Чернышевское, deutsch Eydtkuhnen bzw. 1938–45 Eydtkau, litauisch Eitkūnai), Russland.",
+            "coordinates": {
+                "lat": "54.636757",
+                "lng": "22.733817"
+            },
+            "links": null
+        },
+        {
+            "id": 72,
+            "note": "Nesterow (russisch Нестеров; deutsch bis 1938 Stallupönen, 1938 bis 1946 Ebenrode), Russland.",
+            "coordinates": {
+                "lat": "54.628444",
+                "lng": "22.579111"
+            },
+            "links": null
+        },
+        {
+            "id": 73,
+            "note": "Gussew (russisch Гусев, deutsch Gumbinnen, litauisch Gumbinė), Russland.",
+            "coordinates": {
+                "lat": "54.584861",
+                "lng": "22.198833"
+            },
+            "links": null
+        },
+        {
+            "id": 74,
+            "note": "Heute Tschernjachowsk (Черняховск), Russland.",
+            "coordinates": {
+                "lat": "54.628583",
+                "lng": "21.818806"
+            },
+            "links": null
+        }
+    ]
+}

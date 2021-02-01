@@ -1,0 +1,21 @@
+{
+    "day": 337,
+    "date": [
+        "04.10.45"
+    ],
+    "text": [
+        "Letzte Etappe von Berlin nach Frankfurt/Oder",
+        ". Die letzte Nacht war bitter kalt."
+    ],
+    "footer": [
+        {
+            "id": 88,
+            "note": "Bahnhof Frankfurt (Oder)",
+            "coordinates": {
+                "lat": "52.337361",
+                "lng": "14.546306"
+            },
+            "links": null
+        }
+    ]
+}

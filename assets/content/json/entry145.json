@@ -1,0 +1,41 @@
+{
+    "day": 340,
+    "date": [
+        "07.10.45"
+    ],
+    "text": [
+        "In aller Frühe zum Bahnhof, wo ein wahrer Kampf um die Waggons einsetzt. Es geht täglich nur ein Zug nach Berlin",
+        ". Hierbei stehen den entlassenen Kriegsgefangenen 5 Wagen zur Verfügung, 1.200 – 1-300 werden aber täglich entlassen und wollen unter allen Umständen mitfahren. Ich habe Glück und erreiche mit dem Zug nachmittags Berlin, ohne einen Bissen zu essen in der Tasche. In Berlin selbst ein triumphaler Empfang. Vier Mann hoch streifen wir durch die Strassen nach Lichterfelde",
+        " zur Betreuungsstelle. Die Bevölkerung überschüttet uns mit Liebesgaben und gibt buchstäblich ihr Letztes. Ueberall fallen uns Frauen mit Tränen in den Augen um den Hals und beschwören uns, ob wir nicht Angaben über diesen oder jenen Bekannten machen können. Unsere Nahrungssorgen sind wir mit einem Schlag endgültig los. Selbst andere Raritäten, wie Rasier-Apparat, Seife, Zahnpasta, Briefpapier, sogar Geld usw. werden uns gebracht. An der Betreuungsstelle erwartet uns wieder eine Hiobsnachricht. Erstmalig erfahren wir von den grossen Schwierigkeiten beim Ueberschreiten der russisch-alliierten Interessengrenze. Einzelfahrt nach dort ist unmöglich. Es gibt nur einen sicheren Weg, dorthin zu gelangen: über das englische Sammellager Berlin-Staaken",
+        ". Das bedeutet wieder einen Zeitverlust von mehreren Tagen."
+    ],
+    "footer": [
+        {
+            "id": 92,
+            "note": "Vermutlich der Ostbahnhof, da es von hier Verbindungen zu Frankfurt (Oder) gab/gibt. Es könnte aber auch wieder Rummelsburg gewesen sein.",
+            "coordinates": {
+                "lat": "52.510222",
+                "lng": "13.435000"
+            },
+            "links": null
+        },
+        {
+            "id": 93,
+            "note": "Genauer Ort der Betreuungsstelle (noch) nicht gefunden.",
+            "coordinates": {
+                "lat": "52.433222",
+                "lng": "13.316417"
+            },
+            "links": null
+        },
+        {
+            "id": 94,
+            "note": "Genaue Lage des Sammellagers nicht klar. Der britische Teil von Staaken war östlich der Nord-Süd-Grenze Finkenkruger Weg, Nennhauser Damm und Bergstraße.",
+            "coordinates": {
+                "lat": "52.537806",
+                "lng": "13.142778"
+            },
+            "links": null
+        }
+    ]
+}

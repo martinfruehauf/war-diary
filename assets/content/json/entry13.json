@@ -1,0 +1,60 @@
+{
+    "day": 66,
+    "date": [
+        "06.01.45",
+        "07.01.45"
+    ],
+    "text": [
+        "Abstellung zum Divisionsstab. Fahrt nach Insterburg",
+        ". Daselbst Besuch eines Soldatenkinos. Weiterfahrt in unmittelbarer Frontnähe nach Schillen",
+        ". Nachtfahrt mittels Lkw. zum Fronteinsatz. Mein Ib-Stab",
+        " liegt in Lindnershorst",
+        " in der Oberförsterei. Ich treffe sehr schwierige Arbeitsverhältnisse an. Kein Schlaf, da fast nur Nachtarbeit, keine Kameradschaft unter den Leuten. Der O 2",
+        " (Oblt. Moll) ist ein gemeines Schwein. Ueberhaupt ist unsere Gesamtlage trostlos, denn wir liegen im Endzipfel einer grossen Frontschleife und sind beim Beginn eines russischen Angriffes verloren. Ich habe in Erkenntnis dieser Zukunftsaussichten mein Testament nach Hause geschrieben und fühle mich seitdem etwas leichter."
+    ],
+    "footer": [
+        {
+            "id": 9,
+            "note": "Heute Tschernjachowsk (Черняховск), Russland.",
+            "coordinates": {
+                "lat": "54.633333",
+                "lng": "21.816667"
+            },
+            "links": null
+        },
+        {
+            "id": 10,
+            "note": "Heute Schilino (Жилино), Russland.",
+            "coordinates": {
+                "lat": "54.906667",
+                "lng": "21.925000"
+            },
+            "links": null
+        },
+        {
+            "id": 11,
+            "note": "Römisch eins (I) und b: Quartiermeister (Logistik, Verwundeten- und Versorgungsdienste)",
+            "coordinates": null,
+            "links": [
+                "https://de.wikipedia.org/wiki/Zweiter_Generalstabsoffizier"
+            ]
+        },
+        {
+            "id": 12,
+            "note": "Heute Uszballen/Uschballen ist ein Ortsteil im mittleren Bereich der heutigen Siedlung Poljanskoje (Полянское), Russland.",
+            "coordinates": {
+                "lat": "54.961667",
+                "lng": "22.396111"
+            },
+            "links": null
+        },
+        {
+            "id": 13,
+            "note": "O2 Zweiter Ordonnanzoffizier (bei Ib)",
+            "coordinates": null,
+            "links": [
+                "https://de.wikipedia.org/wiki/Gliederung_einer_Infanterie-Division_der_Wehrmacht#Quartiermeisterabteilung"
+            ]
+        }
+    ]
+}

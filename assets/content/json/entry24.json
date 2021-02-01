@@ -1,0 +1,21 @@
+{
+    "day": 87,
+    "date": [
+        "27.01.45"
+    ],
+    "text": [
+        "Die Front schiebt sich ganz nahe heran. Zurück nach Kalthof",
+        ", dem ersten Vorort von Königsberg."
+    ],
+    "footer": [
+        {
+            "id": 29,
+            "note": "Stadtteil von Königsberg; heute Rischskoje (Рижское).",
+            "coordinates": {
+                "lat": "54.723000",
+                "lng": "20.548000"
+            },
+            "links": null
+        }
+    ]
+}

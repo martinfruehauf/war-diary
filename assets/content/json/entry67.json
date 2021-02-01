@@ -1,0 +1,29 @@
+{
+    "day": 193,
+    "date": [
+        "13.05.45"
+    ],
+    "text": [
+        "Ich muss mit zum Kleiekommando, dem schlimmsten Kommando, das es gibt. In Bahnhofsbaracken muss unter ständigen \"Tawaj\"",
+        "-Rufen der Posten bei dicken Staubwolken Kleie",
+        " umgeschaufelt werden."
+    ],
+    "footer": [
+        {
+            "id": 52,
+            "note": "Давай - umgangssprachlich, je nach Kontext: los!, schnell(er)!, vorwärts!, weiter!",
+            "coordinates": null,
+            "links": [
+                "https://de.wiktionary.org/wiki/dawai"
+            ]
+        },
+        {
+            "id": 53,
+            "note": "Kleie ist ein Sammelbegriff für die bei der Getreideverarbeitung nach Absieben des Mehles zurückbleibenden Rückstände aus Schalen (Samenschale, Fruchtschale), der Aleuronschicht und dem Keimling. Kleie ist ein Mühlennachprodukt und nicht zu verwechseln mit den Spelzen.",
+            "coordinates": null,
+            "links": [
+                "https://de.wikipedia.org/wiki/Kleie"
+            ]
+        }
+    ]
+}
