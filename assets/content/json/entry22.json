@@ -1,0 +1,23 @@
+{
+    "day": 85,
+    "date": [
+        "25.01.45"
+    ],
+    "text": [
+        "Wir sind bereits wieder zu 3/4 umgangen, die vielgerühmte Deimestellung ist nach 3 Tagen zusammengebrochen. In letzter Minute entwischen wir im dichten Nebel nach Nordwesten. Maternhof",
+        ", ein alter Rittersitz, ist unsere nächste Station. Dort unheimliche Vorräte an allem, Fleischkonserven, Eingemachtes, Wurstwaren etc."
+    ],
+    "footer": [
+        {
+            "id": 27,
+            "note": "Maternhof befand sich im Ort Fünflinden; heute Prochorowka (Прохоровка), Russland. Anscheinend kann man hier Zimmer buchen.",
+            "coordinates": {
+                "lat": "54.733194",
+                "lng": "20.707611"
+            },
+            "links": [
+                "https://www.meyersgaz.org/place/20153014"
+            ]
+        }
+    ]
+}

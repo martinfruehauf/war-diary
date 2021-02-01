@@ -1,0 +1,21 @@
+{
+    "day": 336,
+    "date": [
+        "03.10.45"
+    ],
+    "text": [
+        "Lok-Mangel erzwingt ständig neuen Aufenthalt. Zeitweise stehen wir ganze Tage auf den verdreckten und verschmutzen Abstellgleisen",
+        ". Hunger nagt entsetzlich. Jeder will unter Aufbietung seiner letzten Kraftreserven durchhalten und nicht kurz vor dem Ziel schlapp machen, aber unsere Geduld wird immer wieder von neuem auf eine harte Probe gestellt."
+    ],
+    "footer": [
+        {
+            "id": 87,
+            "note": "Hier ist wohl Bahnhof Berlin-Rummelsburg (Betriebsbahnhof) gemeint.",
+            "coordinates": {
+                "lat": "52.493889",
+                "lng": "13.497778"
+            },
+            "links": null
+        }
+    ]
+}

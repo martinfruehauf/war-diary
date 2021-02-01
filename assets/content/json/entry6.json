@@ -1,41 +1,22 @@
 {
-  "day": 36,
-  "date": [
-    "29.11.44"
-  ],
-  "text": [
-    "Alles faaaaake",
-    " sagen alle Menschen",
-    " sehr gerne"
-  ],
-  "footer": [
-    {
-      "id": 5,
-      "note": "fake news miauuu",
-      "coordinates": {
-        "lat": 54.5,
-        "lng": 19.8
-      },
-      "links": null
-    },
-    {
-      "id": 6,
-      "note": "menschen???",
-      "coordinates": null,
-      "links": [
-        "www.abc.de", "www.def.com"
-      ]
-    },
-    {
-      "id": 7,
-      "note": "testestest123456",
-      "coordinates": {
-        "lat": 54.6,
-        "lng": 19.5
-      },
-      "links": [
-        "www.hlk.de"
-      ]
-    }
-  ]
+    "day": 35,
+    "date": [
+        "6.12.44",
+        "21.12.44"
+    ],
+    "text": [
+        "Sehr harte und anstrengende Ausbildung bei meist sehr kaltem Winterwetter. Viel Aussendienst. Wöchentlich 2 mal Nachtübung. Sonntags einige Stunden Erholung in Rosenberg",
+        ", dem Hafen von Heiligenbeil. Ich lerne dabei Winter, Gr. Auheim, kennen."
+    ],
+    "footer": [
+        {
+            "id": 5,
+            "note": "Stadtteil von Heiligenbeil. Heute Krasnoflotskoje (Краснофлотское), Russland.",
+            "coordinates": {
+                "lat": "54.466667",
+                "lng": "20.000000"
+            },
+            "links": null
+        }
+    ]
 }

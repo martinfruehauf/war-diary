@@ -1,0 +1,51 @@
+{
+    "day": 341,
+    "date": [
+        "08.10.45"
+    ],
+    "text": [
+        "Heute vor einem halben Jahr Gefangennahme in Königsberg. Was habe ich in diesen 6 Monaten doch alles erlebt! Nach gut verbrachter Nacht in der Polizeiunterkunft am kleinen Alexanderplatz",
+        " trenne ich mich am Anhalter Bahnhof",
+        " von meinem letzten Gefährten, dem Uffz. Hans Moll aus Magdeburg. Anschliessend kaufe ich am Schalter eine Fahrkarte nach Hanau. Letztmalig werde ich dort gewarnt, dass es so nicht geht, zum mindesten sehr gefährlich ist. Nach einem Besuch beim amerikanischen Konsulat",
+        " entschliesse ich mich endlich und fahre mit der U-Bahn nach Staaken",
+        ". Dort erlebe ich eine wahrhaft glänzende Betreuung durch die Engländer. Ich werde der Amerikazone zugeteilt und in einer Zeltstadt untergebracht. Wie wir erfahren, haben wir grosses Glück. Bereits für morgen soll ein Transport in die amerikanische Besatzungszone gehen. Das Essen ist phantastisch. Wir bekommen pro Tag 4 Büchsen mit wundervollen Delikatessen, für uns alles lang entbehrte Genüsse. Welch ein Unterschied gegen unsere Hungerkost bei den Russen."
+    ],
+    "footer": [
+        {
+            "id": 95,
+            "note": "Unter dem Namen „Polizeipräsidium Alexanderplatz“ sind zwei Gebäude bekannt: Polizeipräsidium Alexander-/Dircksenstraße und Polizeipräsidium Neue Königstraße/Keibelstraße. Nur das letztere wurde nach Zerstörung wiederaufgebaut.",
+            "coordinates": {
+                "lat": "52.521806",
+                "lng": "13.414056"
+            },
+            "links": null
+        },
+        {
+            "id": 96,
+            "note": "Bei Luftangriffen der Allierten stark zerstört und 1959 abgerissen. Heute erinnern das Fragment des Portikus und der unterirdische S-Bahnhof an den einst berühmten Fernbahnhof.",
+            "coordinates": {
+                "lat": "52.503694",
+                "lng": "13.382611"
+            },
+            "links": null
+        },
+        {
+            "id": 97,
+            "note": "Nicht eindeutig, wo sich das amerik. Konsulat befand. Die Botschaft im Palais Blücher befand sich am Pariser Platz 2 zur späteren Königgrätzer Straße 140 in unmittelbarer Nachbarschaft zum Brandenburger Tor. Es wurde jedoch durch Kriegseinwirkungen bis 1945 schwer beschädigt. Nach dem Krieg befand sich in West-Berlin in der Clayallee in Dahlem eine Vertretung der USA und auch heute noch eine Abteilung des Konsulats.",
+            "coordinates": {
+                "lat": "52.452389",
+                "lng": "13.272222"
+            },
+            "links": null
+        },
+        {
+            "id": 98,
+            "note": "Berlin-Staaken",
+            "coordinates": {
+                "lat": "52.537806",
+                "lng": "13.142778"
+            },
+            "links": null
+        }
+    ]
+}

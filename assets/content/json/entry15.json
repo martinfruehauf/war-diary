@@ -1,0 +1,28 @@
+{
+    "day": 76,
+    "date": [
+        "16.01.45"
+    ],
+    "text": [
+        "Für uns zwar erwartet, aber in seiner Wucht doch überraschend, begann heute die russische Offensive. In der Nacht noch Flucht des I $",
+        " - Stabes mittels Lkw. nach Ostmoor",
+        ". Offz.-Betten und sonstige Wohnungseinrichtungen mussten abmontiert und mitgenommen werden."
+    ],
+    "footer": [
+        {
+            "id": 14,
+            "note": "Vermutlich Tippfehler für \"I B\"",
+            "coordinates": null,
+            "links": null
+        },
+        {
+            "id": 15,
+            "note": "Auch Wingschnienen. Heute Slobodskoje ist eines der drei Dörfer des Ortes Malomoschaiskoje (Маломожайское), Russland.",
+            "coordinates": {
+                "lat": "54.920000",
+                "lng": "22.200000"
+            },
+            "links": null
+        }
+    ]
+}

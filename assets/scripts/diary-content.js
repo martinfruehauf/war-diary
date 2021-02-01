@@ -1,8 +1,8 @@
 var slider = document.getElementById("sliderId");
 var day = document.getElementById("day");
 
-var MAXDAYS = 36; //besser nicht hard coden eigentlich = 343
-var days = [1, 4, 14, 28, 33, 36]; //Besser nicht hardcoden
+var days = [1,4,14,28,33,35,52,54,55,59,60,65,66,75,76,77,78,79,80,81,82,85,86,87,88,118,122,124,129,130,131,133,134,137,138,139,152,155,156,157,158,159,160,161,162,163,164,173,174,175,176,177,178,179,180,181,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,221,222,225,226,227,228,229,230,231,232,236,240,243,246,247,248,249,250,258,259,260,264,266,267,270,271,274,275,276,277,278,279,280,286,287,288,289,290,291,292,293,294,295,298,302,303,305,312,314,316,319,320,321,322,323,324,325,328,329,330,331,334,335,336,337,338,339,340,341,342,343,344,345,346]; //Besser nicht hardcoden
+var MAXDAYS = days[days.length-1];
 var pageId;
 
 
@@ -169,17 +169,20 @@ function getEntry(id) {
                 }else {
                     footer += "<p class='sources hide'>" + sourceText + "</p>";
                 }
-
             }
-
             document.getElementById("footer").innerHTML = footer;
 
             //set coordinates
             if(map && entry.footer.length) {
-                clearMarkers();
+                for(let i = 0; i < entry.footer.length; i++) {
+                    if(entry.footer[i].coordinates) {
+                        clearMarkers();
+                        break;
+                    }
+                }
                 for (let i = 0; i < entry.footer.length; i++) {
                     if(entry.footer[i].coordinates) {
-                        setMarker(entry.footer[i].coordinates.lat, entry.footer[i].coordinates.lng, entry.footer[i].id);
+                        setMarker(parseFloat(entry.footer[i].coordinates.lat), parseFloat(entry.footer[i].coordinates.lng), entry.footer[i].id);
                     }
                 }
             }

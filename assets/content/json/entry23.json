@@ -1,0 +1,21 @@
+{
+    "day": 86,
+    "date": [
+        "26.01.45"
+    ],
+    "text": [
+        "Weiterfahrt nach Lauth",
+        ". Sehr kalt. Zivilisten werden aus ihren Wohnungen geworfen und stehen mit ihren Kindern bei 28 Grad Kälte auf der Strasse."
+    ],
+    "footer": [
+        {
+            "id": 28,
+            "note": "Heute Bolschoje Issakowo (Большое Исаково), Russland.",
+            "coordinates": {
+                "lat": "54.718333",
+                "lng": "20.600000"
+            },
+            "links": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "day": 345,
+    "date": [
+        "12.10.45"
+    ],
+    "text": [
+        "Ich habe einfach keine Ruhe mehr und versuche auf eigene Faust nach Erhalt meiner Entlassungspapiere aus dem Lager zu kommen, was mir auch nach einer persönlichen Rücksprache mit dem Lagerkommandanten gelingt. Nach reichlicher Beschenkung durch Marburger Zivilisten fahre ich ganz allein über Giessen",
+        ", Friedberg",
+        " nach Hanau",
+        ", wo ich die letzte Nacht am Bahnhof zubringe."
+    ],
+    "footer": [
+        {
+            "id": 112,
+            "note": "Gießen, Hessen.",
+            "coordinates": {
+                "lat": "50.579750",
+                "lng": "8.661972"
+            },
+            "links": null
+        },
+        {
+            "id": 113,
+            "note": "Friedberg, Hessen.",
+            "coordinates": {
+                "lat": "50.332528",
+                "lng": "8.761528"
+            },
+            "links": null
+        },
+        {
+            "id": 114,
+            "note": "Hanau, Hessen.",
+            "coordinates": {
+                "lat": "50.121167",
+                "lng": "8.929694"
+            },
+            "links": null
+        }
+    ]
+}

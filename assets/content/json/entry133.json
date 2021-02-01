@@ -1,0 +1,28 @@
+{
+    "day": 324,
+    "date": [
+        "21.09.45"
+    ],
+    "text": [
+        "Die Fahrt geht über Kowno",
+        ", wo wir um Mitternacht eintreffen. Am Bahnhof",
+        " erstehe ich mir für 5 Rubel eine Schnecke aus Weizenmehl, die erste Delikatesse nach 5 1/2 Monaten. Wieder einmal, und hoffentlich zum letzten Mal, erleben wir in dieser Nacht was es heisst, im Bereich der Sowjet-Union zu leben. Es findet nämlich gerade eine Massenverschleppung litauischer Jugend statt, die gewaltsam von ihren Angehörigen gerissen werden. Schreckens- und Verzweiflungsschreie gellen durch die Nacht. Der Bahnhof gleicht einem grossen Sammellager, der Russe inszeniert eine moderne Völkerwanderung."
+    ],
+    "footer": [
+        {
+            "id": 68,
+            "note": "Kaunas (deutsch veraltet Kauen, russisch Ковно Kowno), Litauen.",
+            "coordinates": null,
+            "links": null
+        },
+        {
+            "id": 69,
+            "note": "Hauptbahnhofs von Kaunas",
+            "coordinates": {
+                "lat": "54.886417",
+                "lng": "23.932167"
+            },
+            "links": null
+        }
+    ]
+}

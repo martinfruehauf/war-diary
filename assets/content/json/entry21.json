@@ -1,0 +1,30 @@
+{
+    "day": 82,
+    "date": [
+        "22.01.45"
+    ],
+    "text": [
+        "Nach schwieriger Nachtfahrt morgens Ankunft im Rittersgut Popehnen",
+        " hinter der berühmten Deimestellung",
+        ", die unter allen Umständen gehalten werden soll. In den Ställen noch 108 Milchkühe vorhanden. Wir schwelgen im Ueberfluss. Sehr gutes Essen, viel Milch, Schokolade und Zigaretten. Drei Tage Ruhe, in dieser Zeit gedenke ich am Hochzeitstage unserer Feier vor 13 Jahren. Welch ein Kontrast zwischen den ruhigen Zeiten damals und dem Kriegsbrand heute, der die ganze Welt in Flammen gesetzt hat."
+    ],
+    "footer": [
+        {
+            "id": 25,
+            "note": "Heute Swenjewoje (Звеньевое), Russland. Das Rittergut scheint nicht mehr zu existieren. Es gibt jedoch Fotos: ",
+            "coordinates": {
+                "lat": "54.677833",
+                "lng": "20.976861"
+            },
+            "links": [
+                "https://www.bildarchiv-ostpreussen.de/suche/index.html.de?searchtype=town&town=1008#!start=1\nhttps://www.bildarchiv-ostpreussen.de/cgi-bin/bildarchiv/suche/show_karteninfos.cgi?id=3516&typ=o"
+            ]
+        },
+        {
+            "id": 26,
+            "note": "Der Fluss Deime – russisch: Deima (Дейма)",
+            "coordinates": null,
+            "links": null
+        }
+    ]
+}

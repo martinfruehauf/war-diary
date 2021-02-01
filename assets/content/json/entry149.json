@@ -1,0 +1,91 @@
+{
+    "day": 344,
+    "date": [
+        "11.10.45"
+    ],
+    "text": [
+        "Weiterfahrt über Braunschweig",
+        ", Hildesheim",
+        ", Göttingen",
+        ", Eichenberg",
+        ", Kassel",
+        ", Guntershausen",
+        ", Treysa",
+        " ans Endziel Marburg",
+        ". Dort Betreuung und scharfe politische Durchleuchtung durch die Amerikaner. Aufteilung nach Kreisen."
+    ],
+    "footer": [
+        {
+            "id": 104,
+            "note": "Braunschweig, Niedersachsen.",
+            "coordinates": {
+                "lat": "52.252250",
+                "lng": "10.540194"
+            },
+            "links": null
+        },
+        {
+            "id": 105,
+            "note": "Hildesheim, Niedersachsen.",
+            "coordinates": {
+                "lat": "52.159833",
+                "lng": "9.952111"
+            },
+            "links": null
+        },
+        {
+            "id": 106,
+            "note": "Göttingen Niedersachsen.",
+            "coordinates": {
+                "lat": "51.533889",
+                "lng": "9.935556"
+            },
+            "links": null
+        },
+        {
+            "id": 107,
+            "note": "Eichenberg (in der Gemeinde Neu-Eichenberg), Hessen.",
+            "coordinates": {
+                "lat": "51.371222",
+                "lng": "9.899917"
+            },
+            "links": null
+        },
+        {
+            "id": 108,
+            "note": "Kassel, Hessen.",
+            "coordinates": {
+                "lat": "51.322444",
+                "lng": "9.459861"
+            },
+            "links": null
+        },
+        {
+            "id": 109,
+            "note": "Guntershausen heute Stadtteil von Baunatal, Hessen.",
+            "coordinates": {
+                "lat": "51.230306",
+                "lng": "9.466667"
+            },
+            "links": null
+        },
+        {
+            "id": 110,
+            "note": "Treysa heute Stadtteil von Schwalmstadt, Hessen.",
+            "coordinates": {
+                "lat": "50.910472",
+                "lng": "9.185972"
+            },
+            "links": null
+        },
+        {
+            "id": 111,
+            "note": "Marburg, Hessen.",
+            "coordinates": {
+                "lat": "50.819167",
+                "lng": "8.774972"
+            },
+            "links": null
+        }
+    ]
+}

@@ -9,10 +9,10 @@
     "footer": [
         {
             "id": 2,
-            "note": "Preußisch Eylau – heute: Багратио́новск (Bagrationowsk), Russland",
+            "note": "Preußisch Eylau – heute: Багратио́новск (Bagrationowsk), Russland.",
             "coordinates": {
-                "lat": 54.383333,
-                "lng": 20.633333
+                "lat": "54.390511",
+                "lng": "20.640833"
             },
             "links": null
         }

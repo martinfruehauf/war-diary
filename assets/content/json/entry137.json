@@ -1,0 +1,31 @@
+{
+    "day": 330,
+    "date": [
+        "27.09.45"
+    ],
+    "text": [
+        "Weiterfahrt über Bromberg",
+        " nach Schneidemühl",
+        ". Dort treffen wir mit einem Auswandererzug aus Danzig zusammen. Frauen laufen unseren Zug ab und suchen nach ihren Männern, Brüdern und Söhnen, dabei trifft ein Vater den Sohn und eine Schwester den Bruder. Das ergreifende Wiedersehen hat auch uns gepackt. Von einem anderen Soldaten, nach dem sich eine Ehefrau erkundigte, ist hier bekannt, dass er im Lager Schaulen verstorben ist, aber keiner der anwesenden Kameraden hat den Mut, es der Frau zu sagen. Die Frauen erzählen alle von massenweisen Vergewaltigungen und als deren Folgen Geschlechtskrankheiten und Schwangerschaft. Tatsächlich sieht man fast nur schwangere Frauen mit abgehärmten Gesichtern herumlaufen. Es ist furchtbar, denken zu müssen, dass es vielleicht in unserer Heimat auch so zugegangen sein mag. Dann möchte ich lieber gar nicht mehr nach Hause kommen."
+    ],
+    "footer": [
+        {
+            "id": 80,
+            "note": "Bydgoszcz, Polen.",
+            "coordinates": {
+                "lat": "53.135389",
+                "lng": "17.992694"
+            },
+            "links": null
+        },
+        {
+            "id": 81,
+            "note": "Piła, Polen.",
+            "coordinates": {
+                "lat": "53.150000",
+                "lng": "16.733333"
+            },
+            "links": null
+        }
+    ]
+}

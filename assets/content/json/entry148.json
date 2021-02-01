@@ -1,0 +1,51 @@
+{
+    "day": 343,
+    "date": [
+        "10.10.45"
+    ],
+    "text": [
+        "Im Gegensatz zu meinen seitherigen traurigen Erfahrungen bei Transportzügen verläuft die Fahrt verhältnismässig rasch. Wir fahren über Stendal",
+        ", Magdeburg",
+        ", Eilsleben",
+        ", Helmstedt",
+        ". Dort passieren wir unter lautem Indianergeheul und dem spontanen Absingen von Heimatliedern die letzten Grenzposten der russischen Besatzungszone. Freudestrahlend ziehe ich den lange verborgen gehaltenen Ring wieder an meinen Finger. Ueberall, wo wir durchfahren, das gleiche Bild. Die Bevölkerung, besonders die Frauenwelt, rast vor Begeisterung. Obwohl die Leute selbst nichts haben, spenden sie buchstäblich ihr Letztes. Es ist rührend mit anzusehen, und manches Auge ist mit Tränen gefüllt. Auch viele Briefe, die für andere Zonen bestimmt sind, werden mitgenommen. Diese schönen Stunden der Heimfahrt entschädigen uns für so manches Schwere und Bittere, das wir in der Gefangenschaft erleben mussten. Die Nacht im Zuge wird beim Kerzenschein, ebenfalls unter Absingen von Heimatliedern verbracht. An Schlafen ist wegen der herrschenden Kälte in den Waggons sowieso nicht zu denken."
+    ],
+    "footer": [
+        {
+            "id": 100,
+            "note": "Stendal, Sachsen-Anhalt.",
+            "coordinates": {
+                "lat": "52.594889",
+                "lng": "11.855583"
+            },
+            "links": null
+        },
+        {
+            "id": 101,
+            "note": "Magdeburg, Sachsen-Anhalt (Hauptstadt).",
+            "coordinates": {
+                "lat": "52.165972",
+                "lng": "11.658139"
+            },
+            "links": null
+        },
+        {
+            "id": 102,
+            "note": "Eilsleben, Sachsen-Anhalt.",
+            "coordinates": {
+                "lat": "52.150417",
+                "lng": "11.215028"
+            },
+            "links": null
+        },
+        {
+            "id": 103,
+            "note": "Helmstedt, Niedersachsen.",
+            "coordinates": {
+                "lat": "52.228056",
+                "lng": "11.010556"
+            },
+            "links": null
+        }
+    ]
+}

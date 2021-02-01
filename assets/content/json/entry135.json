@@ -1,0 +1,61 @@
+{
+    "day": 328,
+    "date": [
+        "25.09.45"
+    ],
+    "text": [
+        "Während eines 2tägigen Aufenthaltes in Insterburg wurde unser Transport von den russischen Breitspurwagen auf deutsche Wagen umgebaut. Von hier aus liegt neben der russischen Breitspur auch die deutsche Normalspur. Weiterfahrt über Korschen",
+        ", Allenstein",
+        ", Osterode",
+        ", Dt.Eylau",
+        " nach Thorn",
+        ". Dort wieder 2 Tage Aufenthalt. Inzwischen haben wir bereits 12 Tote. Die Fahrt durch Ostpreussen war trostlos. Das ganze Land ist menschenleer und gleicht einer Mondlandschaft. Die Hauptstrassen sind mit Gras bewachsen, das Getreide steht jetzt noch auf den Feldern. Ueberall im südlichen Teil des Landes machen sich jetzt die Polen breit. Die Bahnhöfe tragen alle schon polnische Namen. In Westpreussen erzählt uns ein alter Zivilist, wie die Kinder getötet, die Frauen vergewaltigt und die Häuser angezündet wurden. Nun kommen auch öfter Frauen mit verweinten Augen an den langsam fahrenden Zug und fragen ängstlich nach diesem oder jenem Angehörigen, der sich in Russland befindet. Meistens erwartet sie eine Enttäuschung. Mit dem Ruf: \"Vergesst uns nicht und kommt wieder, sonst sind wir verloren\" nehmen sie meistens Abschied von unserem Zuge. Heute wurden 16 Kameraden (darunter auch Philipp Weigel aus Bieber), die der Küche beim Gemüseputzen halfen, für 24 Stunden ohne jegliche Nahrung eingesperrt, weil sie total verfaultes Gemüse weggeworfen hatten, während der Russe verlangte, dass es in die Suppe kommen soll."
+    ],
+    "footer": [
+        {
+            "id": 75,
+            "note": "Heute Korsze, Polen.",
+            "coordinates": {
+                "lat": "54.172222",
+                "lng": "21.138528"
+            },
+            "links": null
+        },
+        {
+            "id": 76,
+            "note": "Heute Olsztyn, Polen.",
+            "coordinates": {
+                "lat": "53.785639",
+                "lng": "20.498306"
+            },
+            "links": null
+        },
+        {
+            "id": 77,
+            "note": "Heute Ostróda (deutsch Osterode i. Ostpr.), Polen.",
+            "coordinates": {
+                "lat": "53.699750",
+                "lng": "19.951306"
+            },
+            "links": null
+        },
+        {
+            "id": 78,
+            "note": "Heute Iława (deutsch Deutsch Eylau), Polen.",
+            "coordinates": {
+                "lat": "53.582222",
+                "lng": "19.573861"
+            },
+            "links": null
+        },
+        {
+            "id": 79,
+            "note": "Toruń, Polen.",
+            "coordinates": {
+                "lat": "53.000000",
+                "lng": "18.615333"
+            },
+            "links": null
+        }
+    ]
+}

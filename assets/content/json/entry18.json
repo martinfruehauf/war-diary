@@ -1,0 +1,40 @@
+{
+    "day": 79,
+    "date": [
+        "19.01.45"
+    ],
+    "text": [
+        "weiter nach Hohensalzburg",
+        ", weil dort der Ib-Stab",
+        " liegen soll. In der Nacht wurde jedoch Hohensalzburg von den Russen besetzt. Wir laufen direkt in die russischen Panzer. Wie durch ein Wunder entkommen wir, trotz schweren Beschusses, über hoch verschneites Gelände. Hierbei nochmals starker Beschuss durch russische Schlachter. 20 m von uns ein Pferdegespann samt Führer durch Volltreffer getötet. Abends erreichen wir, müde und abgekämpft, in Fichtenflies",
+        " unseren Stab wieder. Wir waren bereits aufgegeben. In einer Molkerei wird bei Sahne und Schokolade Wiedersehen gefeiert."
+    ],
+    "footer": [
+        {
+            "id": 19,
+            "note": "Heute Lunino (Лунино), Russland.",
+            "coordinates": {
+                "lat": "54.918333",
+                "lng": "22.078889"
+            },
+            "links": null
+        },
+        {
+            "id": 20,
+            "note": "Römisch eins (I) und b: Quartiermeister (Logistik, Verwundeten- und Versorgungsdienste)",
+            "coordinates": null,
+            "links": [
+                "https://de.wikipedia.org/wiki/Zweiter_Generalstabsoffizier"
+            ]
+        },
+        {
+            "id": 21,
+            "note": "Wohl eher \"Fichtenfließ\"; später Schilowo zwischen Kanasch (Канаш) und Duminitschi (Думиничи). Heute nicht mehr existent.",
+            "coordinates": {
+                "lat": "54.941389",
+                "lng": "21.810611"
+            },
+            "links": null
+        }
+    ]
+}

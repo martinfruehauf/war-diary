@@ -1,0 +1,28 @@
+{
+    "day": 124,
+    "date": [
+        "05.03.45"
+    ],
+    "text": [
+        "Wir siedeln um in den Westteil der Stadt zur Vogelweide",
+        " 10, am Tiergarten",
+        ". Dort besitzen wir in einem fünfstöckigen Wohnhaus einen gut ausgebauten Luftschutzkeller."
+    ],
+    "footer": [
+        {
+            "id": 35,
+            "note": "Heute Ulitsa Nosova (улица Носова).",
+            "coordinates": {
+                "lat": "54.721083",
+                "lng": "20.491167"
+            },
+            "links": null
+        },
+        {
+            "id": 36,
+            "note": "Heute Kaliningrader Zoo/Kaliningradskiy Zoopark (Калининградский зоопарк)",
+            "coordinates": null,
+            "links": null
+        }
+    ]
+}

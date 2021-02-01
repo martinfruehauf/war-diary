@@ -2,28 +2,125 @@ let map;
 let markers = [];
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 8,
-        center: { lat: 54, lng: 20 },
+        zoom: 6,
+        center: { lat: 52.895563, lng: 17.116324 },
         mapTypeId: "terrain",
     });
-    var flightPlanCoordinates = [  // Change this goddamn name ! ! ! ! ! !
-        { lat: 54.409539, lng: 20.480892 },
-        { lat: 54.390511, lng: 20.640833 },
-        { lat: 54.383542, lng: 19.816714 },
-        { lat: 54.466667, lng: 19.933333 },
+    var fighting = [
+        { lat: 54.409539, lng: 20.480892},
+        { lat: 54.390511, lng: 20.640833},
+        { lat: 54.383542, lng: 19.816714},
+        { lat: 54.466667, lng: 19.933333},
+        { lat: 54.466667, lng: 20.000000},
+        { lat: 54.633333, lng: 21.816667},
+        { lat: 54.906667, lng: 21.925000},
+        { lat: 54.961667, lng: 22.396111},
+        { lat: 54.920000, lng: 22.200000},
+        { lat: 54.906667, lng: 21.925000},
+        { lat: 54.920000, lng: 22.200000},
+        { lat: 54.918333, lng: 22.078889},
+        { lat: 54.941389, lng: 21.810611},
+        { lat: 54.880278, lng: 21.652778},
+        { lat: 54.823000, lng: 21.348000},
+        { lat: 54.793333, lng: 21.239167},
+        { lat: 54.677833, lng: 20.976861},
+        { lat: 54.733194, lng: 20.707611},
+        { lat: 54.718333, lng: 20.600000},
+        { lat: 54.723000, lng: 20.548000},
+        { lat: 54.725722, lng: 20.526722},
+        { lat: 54.721083, lng: 20.491167},
+        { lat: 54.720667, lng: 20.499694},
+        { lat: 54.715278, lng: 20.459056},
     ];
 
-    var flightPath = new google.maps.Polyline({
-        path: flightPlanCoordinates,
+    var imprisonment = [
+        { lat: 54.715278, lng: 20.459056},
+        { lat: 54.866667, lng: 21.100000},
+        { lat: 54.650000, lng: 21.066667},
+        { lat: 54.880278, lng: 21.652778},
+        { lat: 55.051866, lng: 21.954591},
+        { lat: 55.252222, lng: 22.289722},
+        { lat: 55.928056, lng: 23.315000},
+    ];
+
+    var returning = [
+        { lat: 55.928056, lng: 23.315000},
+        { lat: 56.005556, lng: 22.936111},
+        { lat: 56.005556, lng: 22.936111},
+        { lat: 55.928056, lng: 23.315000},
+        { lat: 54.886417, lng: 23.932167},
+        { lat: 54.640256, lng: 22.759144},
+        { lat: 54.636757, lng: 22.733817},
+        { lat: 54.628444, lng: 22.579111},
+        { lat: 54.584861, lng: 22.198833},
+        { lat: 54.628583, lng: 21.818806},
+        { lat: 54.172222, lng: 21.138528},
+        { lat: 53.785639, lng: 20.498306},
+        { lat: 53.699750, lng: 19.951306},
+        { lat: 53.582222, lng: 19.573861},
+        { lat: 53.000000, lng: 18.615333},
+        { lat: 53.135389, lng: 17.992694},
+        { lat: 53.150000, lng: 16.733333},
+        { lat: 52.877722, lng: 16.018333},
+        { lat: 52.727722, lng: 15.229389},
+        { lat: 52.591750, lng: 14.647000},
+        { lat: 52.501500, lng: 13.477444},
+        { lat: 52.493889, lng: 13.497778},
+        { lat: 52.337361, lng: 14.546306},
+        { lat: 52.342833, lng: 14.503667},
+        { lat: 52.349389, lng: 14.549694},
+        { lat: 52.510222, lng: 13.435000},
+        { lat: 52.433222, lng: 13.316417},
+        { lat: 52.537806, lng: 13.142778},
+        { lat: 52.521806, lng: 13.414056},
+        { lat: 52.503694, lng: 13.382611},
+        { lat: 52.452389, lng: 13.272222},
+        { lat: 52.537806, lng: 13.142778},
+        { lat: 52.594889, lng: 11.855583},
+        { lat: 52.165972, lng: 11.658139},
+        { lat: 52.150417, lng: 11.215028},
+        { lat: 52.228056, lng: 11.010556},
+        { lat: 52.252250, lng: 10.540194},
+        { lat: 52.159833, lng: 9.952111},
+        { lat: 51.533889, lng: 9.935556},
+        { lat: 51.371222, lng: 9.899917},
+        { lat: 51.322444, lng: 9.459861},
+        { lat: 51.230306, lng: 9.466667},
+        { lat: 50.910472, lng: 9.185972},
+        { lat: 50.819167, lng: 8.774972},
+        { lat: 50.579750, lng: 8.661972},
+        { lat: 50.332528, lng: 8.761528},
+        { lat: 50.121167, lng: 8.929694},
+        { lat: 50.108944, lng: 8.909806},
+        { lat: 50.104528, lng: 8.909528},
+    ];
+
+    var fightingPath = new google.maps.Polyline({
+        path: fighting,
         geodesic: true,
         strokeColor: "#FF0000",
         strokeOpacity: 1.0,
         strokeWeight: 2,
     });
-    flightPath.setMap(map);
+    var imprisonmentPath = new google.maps.Polyline({
+        path: imprisonment,
+        geodesic: true,
+        strokeColor: "#FFFF00",
+        strokeOpacity: 1.0,
+        strokeWeight: 2,
+    });
+    var returningPath = new google.maps.Polyline({
+        path: returning,
+        geodesic: true,
+        strokeColor: "#008000",
+        strokeOpacity: 1.0,
+        strokeWeight: 2,
+    });
+    fightingPath.setMap(map);
+    imprisonmentPath.setMap(map);
+    returningPath.setMap(map);
 
     // Set initial marker
-
     setMarker(54.409539, 20.480892, 1);
 }
 

@@ -10,12 +10,12 @@
     "footer": [
         {
             "id": 4,
-            "note": "Heute Mamonowo (Мамоново), Russland",
+            "note": "Heute Mamonowo (Мамоново), Russland.",
             "coordinates": {
-                "lat": 54.466667,
-                "lng": 19.933333
+                "lat": "54.466667",
+                "lng": "19.933333"
             },
-            "links": ["www.google.de", "www.zeit.de"]
+            "links": null
         }
     ]
 }

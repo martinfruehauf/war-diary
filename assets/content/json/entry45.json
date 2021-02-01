@@ -1,0 +1,21 @@
+{
+    "day": 162,
+    "date": [
+        "12.04.45"
+    ],
+    "text": [
+        "Ich habe am nächsten Tag Fieber und fühle mich sehr elend. Weitermarsch in Richtung Kreuzingen",
+        ". Auch heute gibt es wieder einige Selbstmorde. Die Leute laufen absichtlich zum Wassergraben und erhalten dabei prompt den gewünschten Fangschuss."
+    ],
+    "footer": [
+        {
+            "id": 46,
+            "note": "Heute Bolschakowo (Большаково), Russland.",
+            "coordinates": {
+                "lat": "54.880278",
+                "lng": "21.652778"
+            },
+            "links": null
+        }
+    ]
+}
