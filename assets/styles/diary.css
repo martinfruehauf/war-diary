@@ -32,8 +32,14 @@
     }
 }
 
-.status {
+.status-fight {
     color: red;
+}
+.status-prison {
+    color: #ffaa00;
+}
+.status-return {
+    color: green;
 }
 
 @media screen and (max-width: 1200px)  {
