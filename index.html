@@ -11,6 +11,7 @@
         .hide {
             display: none;
         }
+
         .about, .home, .diary, .impressum {
             max-width: 1200px;
             margin: auto;
@@ -156,7 +157,7 @@
         </div>
 
         <div class="slidecontainer">
-            <input type="range" min="1" max="346" value="1" class="slider" id="sliderId"> <!--max=343-->
+            <input type="range" min="1" max="346" value="1" class="slider" id="sliderId">
         </div>
 
         <div id="timeline2" class="collapse">
@@ -189,7 +190,7 @@
         <div class="buttons">
             <button type="button" class="btn btn-outline-secondary" id="button-previous"><</button>
             <button type="button" class="btn btn-outline-secondary" id="btn-timeline" data-toggle="collapse" data-target="#timeline1, #timeline2">Historischer Zeitstrahl</button>
-            <span id="status-bloc-sm">Status: <span class="status">Gefecht</span></span>
+            <span id="status-bloc-sm">Status: <span class="status status-fight">Gefecht</span></span>
             <button type="button" class="btn btn-outline-secondary" id="button-next">></button>
         </div>
 
@@ -198,7 +199,7 @@
                 <h5 class="card-title" id="block_container">
                     <span id="date-bloc">Datum: <span id="date"></span></span>
 
-                    <span id="status-bloc-lg">Status: <span class="status">Gefecht</span></span>
+                    <span id="status-bloc-lg">Status: <span class="status status-fight">Gefecht</span></span>
 
                     <span id="day-bloc">Tag: <span id="day">1</span></span>
                     <br>

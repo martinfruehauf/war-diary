@@ -187,6 +187,25 @@ function getEntry(id) {
                 }
             }
 
+            //Change status
+            let statusClass = document.getElementsByClassName("status");
+            if(entry.day < 158) {
+                statusClass[0].className = "status status-fight";
+                statusClass[0].textContent = "Gefecht";
+                statusClass[1].className = "status status-fight";
+                statusClass[1].textContent = "Gefecht";
+            } else if(158 <= entry.day && entry.day < 323) {
+                statusClass[0].className = "status status-prison";
+                statusClass[0].textContent = "Gefangenschaft";
+                statusClass[1].className = "status status-prison";
+                statusClass[1].textContent = "Gefangenschaft";
+            } else {
+                statusClass[0].className = "status status-return";
+                statusClass[0].textContent = "Heimkehr";
+                statusClass[1].className = "status status-return";
+                statusClass[1].textContent = "Heimkehr";
+            }
+
         }
     };
     let url = "assets/content/json/entry" + id + ".json";
