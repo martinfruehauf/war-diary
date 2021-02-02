@@ -30,8 +30,8 @@ var daysThatHaveCoordinates = [
     { day: 173, coordinates: [{ lat: 55.252222, lng: 22.289722},]},
     { day: 260, coordinates: [{ lat: 55.928056, lng: 23.315000},]},
     { day: 276, coordinates: [{ lat: 56.005556, lng: 22.936111},]},
-    { day: 290, coordinates: [{ lat: 56.005556, lng: 22.936111},
-            { lat: 55.928056, lng: 23.315000},]},/////////
+    { day: 290, coordinates: [{ lat: 56.005556, lng: 22.936111},///Kurscheney
+            { lat: 55.928056, lng: 23.315000},]},/////////Schaulen
     { day: 324, coordinates: [{ lat: 54.886417, lng: 23.932167},]},
     { day: 325, coordinates: [{ lat: 54.640256, lng: 22.759144},
             { lat: 54.636757, lng: 22.733817},
@@ -86,14 +86,16 @@ for (let i = 0; i < daysThatHaveCoordinates.slice(0, 19).length; i++) {
     }
 }
 var imprisonment = [];
-for (let i = 0; i < daysThatHaveCoordinates.slice(18, 25).length; i++) {
-    for(let j = 0; j < daysThatHaveCoordinates.slice(18, 25)[i]["coordinates"].length; j ++) {
-        imprisonment.push(daysThatHaveCoordinates.slice(18, 25)[i]["coordinates"][j]);
+for (let i = 0; i < daysThatHaveCoordinates.slice(18, 26).length; i++) {
+    for(let j = 0; j < daysThatHaveCoordinates.slice(18, 26)[i]["coordinates"].length; j ++) {
+        imprisonment.push(daysThatHaveCoordinates.slice(18, 26)[i]["coordinates"][j]);
     }
 }
 var returning = [];
-for (let i = 0; i < daysThatHaveCoordinates.slice(24, daysThatHaveCoordinates.length).length; i++) {
-    for(let j = 0; j < daysThatHaveCoordinates.slice(24, daysThatHaveCoordinates.length)[i]["coordinates"].length; j ++) {
-        returning.push(daysThatHaveCoordinates.slice(24, daysThatHaveCoordinates.length)[i]["coordinates"][j]);
+returning.push(daysThatHaveCoordinates.slice(26, daysThatHaveCoordinates.length)[0]["coordinates"][1]);
+for (let i = 1; i < daysThatHaveCoordinates.slice(26, daysThatHaveCoordinates.length).length; i++) {
+    for(let j = 0; j < daysThatHaveCoordinates.slice(26, daysThatHaveCoordinates.length)[i]["coordinates"].length; j ++) {
+
+        returning.push(daysThatHaveCoordinates.slice(26, daysThatHaveCoordinates.length)[i]["coordinates"][j]);
     }
 }
