@@ -5,7 +5,6 @@ var days = [1,4,14,28,33,35,52,54,55,59,60,65,66,75,76,77,78,79,80,81,82,85,86,8
 var MAXDAYS = days[days.length-1];
 var pageId;
 
-
 let footnotesActive = true;
 let mapActive = true;
 let sourcesActive = false;
@@ -110,6 +109,13 @@ document.getElementById("button-previous").addEventListener('click', function() 
     }
 } );
 
+function getPreviousCoordinates(daysThatHaveCoordinates, day) {
+    for(let i = 0; i < daysThatHaveCoordinates.length; i++) {
+        if(daysThatHaveCoordinates[i]["day"] < day && daysThatHaveCoordinates[i+1]["day"] >= day) {
+            return daysThatHaveCoordinates[i]["coordinates"][daysThatHaveCoordinates[i]["coordinates"].length-1];
+        }
+    }
+}
 
 function getEntry(id) {
     var xmlhttp = new XMLHttpRequest();
@@ -173,19 +179,30 @@ function getEntry(id) {
             document.getElementById("footer").innerHTML = footer;
 
             //set coordinates
-            if(map && entry.footer.length) {
-                for(let i = 0; i < entry.footer.length; i++) {
-                    if(entry.footer[i].coordinates) {
-                        clearMarkers();
+            //find out if FOOTER has coordinates AT ALL
+            var hasCoordinates = false;
+            if(entry.footer.length) {
+                for (let i = 0; i < entry.footer.length; i++) {
+                    if (entry.footer[i].coordinates) {
+                        hasCoordinates = true;
                         break;
                     }
                 }
+            }
+            if(hasCoordinates) {
+                clearMarkers();
                 for (let i = 0; i < entry.footer.length; i++) {
                     if(entry.footer[i].coordinates) {
                         setMarker(parseFloat(entry.footer[i].coordinates.lat), parseFloat(entry.footer[i].coordinates.lng), entry.footer[i].id);
                     }
                 }
+            } else {
+                clearMarkers()
+                let previousCoordinates = getPreviousCoordinates(daysThatHaveCoordinates, entry.day);
+                setMarker(previousCoordinates.lat, previousCoordinates.lng, 0);
+
             }
+            hasCoordinates = false;
 
             //Change status
             let statusClass = document.getElementsByClassName("status");
@@ -236,4 +253,4 @@ slider.onchange = function() {
     getEntry(tempArrId+1);
 }
 
-getEntry(1);
+setTimeout(() => {  getEntry(1); }, 1000);
